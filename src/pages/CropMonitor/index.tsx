@@ -13,6 +13,10 @@ const MainDashboard = () => {
             <CardTitle>Weed Pressure</CardTitle>
           </CardHeader>
           <CardContent>
+
+        
+
+
             <div className="h-40 bg-gray-100 rounded flex items-center justify-center">
               Weed Pressure Chart
             </div>

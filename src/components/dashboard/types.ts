@@ -12,6 +12,13 @@ export interface FieldDataProps {
   cropType: string;
 }
 
+export interface FieldInfo {
+  field: string;
+  section: string;
+  size: string;
+  cropType: string;
+}
+
 export interface SearchBarProps {
   placeholder: string;
   searchIcon: string;

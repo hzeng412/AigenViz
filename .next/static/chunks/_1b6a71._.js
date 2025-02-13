@@ -1,4 +1,4 @@
-(globalThis.TURBOPACK = globalThis.TURBOPACK || []).push(["static/chunks/_fed948._.js", {
+(globalThis.TURBOPACK = globalThis.TURBOPACK || []).push(["static/chunks/_1b6a71._.js", {
 
 "[project]/src/components/dashboard/SidebarItem.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
@@ -69,61 +69,6 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_refresh__.registerExports(module, globalThis.$RefreshHelpers$);
 }
 }}),
-"[project]/src/components/dashboard/SearchBar.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
-"use strict";
-
-var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, k: __turbopack_refresh__, m: module, z: __turbopack_require_stub__ } = __turbopack_context__;
-{
-__turbopack_esm__({
-    "SearchBar": (()=>SearchBar)
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-;
-const SearchBar = ({ placeholder, searchIcon })=>{
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "flex flex-col grow shrink-0 self-start text-sm font-medium text-gray-400 whitespace-nowrap basis-0 bg-black bg-opacity-0 w-fit",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex gap-1.5 rounded-lg border border-solid bg-stone-50 border-stone-50",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                    loading: "lazy",
-                    src: searchIcon,
-                    alt: "",
-                    className: "object-contain shrink-0 w-8 aspect-[0.73]"
-                }, void 0, false, {
-                    fileName: "[project]/src/components/dashboard/SearchBar.tsx",
-                    lineNumber: 11,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                    type: "search",
-                    placeholder: placeholder,
-                    className: "flex-auto my-auto w-[368px] bg-transparent border-none outline-none",
-                    "aria-label": "Search"
-                }, void 0, false, {
-                    fileName: "[project]/src/components/dashboard/SearchBar.tsx",
-                    lineNumber: 17,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "[project]/src/components/dashboard/SearchBar.tsx",
-            lineNumber: 10,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "[project]/src/components/dashboard/SearchBar.tsx",
-        lineNumber: 9,
-        columnNumber: 5
-    }, this);
-};
-_c = SearchBar;
-var _c;
-__turbopack_refresh__.register(_c, "SearchBar");
-if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
-    __turbopack_refresh__.registerExports(module, globalThis.$RefreshHelpers$);
-}
-}}),
 "[project]/src/components/dashboard/DashboardLayout.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
@@ -136,8 +81,6 @@ __turbopack_esm__({
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)"); // Import the Link component
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$dashboard$2f$SidebarItem$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/dashboard/SidebarItem.tsx [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$dashboard$2f$SearchBar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/dashboard/SearchBar.tsx [app-client] (ecmascript)");
-;
 ;
 ;
 ;
@@ -179,75 +122,53 @@ const DashboardLayout = ({ children })=>{
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex flex-wrap gap-10",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex relative flex-col justify-center items-start py-1.5 aspect-[4.104] w-[197px]",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        href: "",
-                                        children: [
-                                            " ",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                loading: "lazy",
-                                                src: "https://cdn.builder.io/api/v1/image/assets/TEMP/d58d48f77a1bf41f3c7f2dfa609beda9f2342a8aa32a203e5b3cbd0323c48eb5?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
-                                                alt: "Click to return to home",
-                                                className: "object-cover absolute inset-0 size-full cursor-pointer" // Add cursor-pointer for better UX
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                                                lineNumber: 45,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                                        lineNumber: 44,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex relative flex-col justify-center items-start py-1.5 aspect-[4.104] w-[197px]",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                    href: "",
+                                    children: [
+                                        " ",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                            loading: "lazy",
+                                            src: "https://cdn.builder.io/api/v1/image/assets/TEMP/d58d48f77a1bf41f3c7f2dfa609beda9f2342a8aa32a203e5b3cbd0323c48eb5?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
+                                            alt: "Click to return to home",
+                                            className: "object-cover absolute inset-0 size-full cursor-pointer" // Add cursor-pointer for better UX
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
+                                            lineNumber: 45,
+                                            columnNumber: 17
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                                    lineNumber: 42,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$dashboard$2f$SearchBar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SearchBar"], {
-                                    searchIcon: "https://cdn.builder.io/api/v1/image/assets/TEMP/b90846117660f87093ed45f797b9c656888a22f5b3ce0b6ce7d8eac23ad0deb9?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
-                                    placeholder: "Search"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                                    lineNumber: 53,
-                                    columnNumber: 13
+                                    lineNumber: 44,
+                                    columnNumber: 15
                                 }, this)
-                            ]
-                        }, void 0, true, {
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
+                                lineNumber: 42,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
                             fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
                             lineNumber: 41,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex gap-px self-start",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                    loading: "lazy",
-                                    src: "https://cdn.builder.io/api/v1/image/assets/TEMP/06b4a8707a24e9b6e9056d5db7d5d92dd0e552859e29b7d150a6059aef5cf572?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
-                                    alt: "",
-                                    className: "object-contain shrink-0 my-auto aspect-[2.42] w-[92px]"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                                    lineNumber: 59,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                    loading: "lazy",
-                                    src: "https://cdn.builder.io/api/v1/image/assets/TEMP/96f544cf09ff8a4c6ff0a464f3a74861da49038e0729c0ff1901b10609b23e8b?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
-                                    alt: "User profile",
-                                    className: "object-contain shrink-0 w-11 rounded-sm aspect-square"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                                    lineNumber: 65,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                loading: "lazy",
+                                src: "https://cdn.builder.io/api/v1/image/assets/TEMP/96f544cf09ff8a4c6ff0a464f3a74861da49038e0729c0ff1901b10609b23e8b?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
+                                alt: "User profile",
+                                className: "object-contain shrink-0 w-11 rounded-sm aspect-square"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
+                                lineNumber: 56,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
                             fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                            lineNumber: 58,
+                            lineNumber: 54,
                             columnNumber: 11
                         }, this)
                     ]
@@ -276,7 +197,7 @@ const DashboardLayout = ({ children })=>{
                                         children: "Dashboard"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                                        lineNumber: 80,
+                                        lineNumber: 71,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -287,28 +208,28 @@ const DashboardLayout = ({ children })=>{
                                                     ...item
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                                                    lineNumber: 86,
+                                                    lineNumber: 77,
                                                     columnNumber: 21
                                                 }, this)
                                             }, index, false, {
                                                 fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                                                lineNumber: 85,
+                                                lineNumber: 76,
                                                 columnNumber: 19
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                                        lineNumber: 83,
+                                        lineNumber: 74,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                                lineNumber: 79,
+                                lineNumber: 70,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                            lineNumber: 78,
+                            lineNumber: 69,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -316,18 +237,18 @@ const DashboardLayout = ({ children })=>{
                             children: children
                         }, void 0, false, {
                             fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                            lineNumber: 94,
+                            lineNumber: 85,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                    lineNumber: 76,
+                    lineNumber: 67,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                lineNumber: 75,
+                lineNumber: 66,
                 columnNumber: 7
             }, this)
         ]
@@ -344,329 +265,566 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_refresh__.registerExports(module, globalThis.$RefreshHelpers$);
 }
 }}),
-"[project]/src/components/dashboard/FieldList.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
+"[project]/src/components/weed-pressure/WeedTypeCard.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, k: __turbopack_refresh__, m: module, z: __turbopack_require_stub__ } = __turbopack_context__;
 {
+// src/components/weed-pressure/WeedTypeCard.tsx
 __turbopack_esm__({
-    "FieldList": (()=>FieldList)
+    "WeedTypeCard": (()=>WeedTypeCard)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 ;
-;
-const fieldData = [
-    {
-        name: "Zimmerman",
-        location: "#2B",
-        size: "214 acres",
-        cropType: "Sugar Beet"
-    },
-    {
-        name: "Lindemann",
-        location: "#1A",
-        size: "184 acres",
-        cropType: "Cotton"
-    },
-    {
-        name: "Sinimann",
-        location: "#2C",
-        size: "157 acres",
-        cropType: "Cotton"
-    }
-];
-const FieldList = ()=>{
+const WeedTypeCard = ({ image, title, description, alt })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "flex z-10 flex-wrap gap-9 mt-0 max-w-full text-base leading-4 text-black w-[1006px]",
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "my-auto",
-                children: fieldData.map((field, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__.Fragment, {
-                        children: [
-                            field.name,
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                fileName: "[project]/src/components/dashboard/FieldList.tsx",
-                                lineNumber: 22,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                fileName: "[project]/src/components/dashboard/FieldList.tsx",
-                                lineNumber: 23,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, index, true, {
-                        fileName: "[project]/src/components/dashboard/FieldList.tsx",
-                        lineNumber: 20,
-                        columnNumber: 11
-                    }, this))
-            }, void 0, false, {
-                fileName: "[project]/src/components/dashboard/FieldList.tsx",
-                lineNumber: 18,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex relative flex-col grow shrink-0 justify-center items-center px-16 py-7 bg-blend-normal basis-0 min-h-[129px] w-fit max-md:px-5 max-md:max-w-full",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                        loading: "lazy",
-                        src: "https://cdn.builder.io/api/v1/image/assets/TEMP/36b00b944cd2093c5e1a37a0dbe16c7eb393f07b93a0cc6099d4d25e71e4a7ab?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
-                        alt: "",
-                        className: "object-cover absolute inset-0 size-full"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/dashboard/FieldList.tsx",
-                        lineNumber: 28,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex relative gap-5 justify-between ml-6 max-w-full w-[571px]",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                children: fieldData.map((field, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__.Fragment, {
-                                        children: [
-                                            field.location,
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                fileName: "[project]/src/components/dashboard/FieldList.tsx",
-                                                lineNumber: 39,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                fileName: "[project]/src/components/dashboard/FieldList.tsx",
-                                                lineNumber: 40,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, index, true, {
-                                        fileName: "[project]/src/components/dashboard/FieldList.tsx",
-                                        lineNumber: 37,
-                                        columnNumber: 15
-                                    }, this))
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/dashboard/FieldList.tsx",
-                                lineNumber: 35,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                children: fieldData.map((field, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__.Fragment, {
-                                        children: [
-                                            field.size,
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                fileName: "[project]/src/components/dashboard/FieldList.tsx",
-                                                lineNumber: 48,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                fileName: "[project]/src/components/dashboard/FieldList.tsx",
-                                                lineNumber: 49,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, index, true, {
-                                        fileName: "[project]/src/components/dashboard/FieldList.tsx",
-                                        lineNumber: 46,
-                                        columnNumber: 15
-                                    }, this))
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/dashboard/FieldList.tsx",
-                                lineNumber: 44,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                children: fieldData.map((field, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__.Fragment, {
-                                        children: [
-                                            field.cropType,
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                fileName: "[project]/src/components/dashboard/FieldList.tsx",
-                                                lineNumber: 57,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                fileName: "[project]/src/components/dashboard/FieldList.tsx",
-                                                lineNumber: 58,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, index, true, {
-                                        fileName: "[project]/src/components/dashboard/FieldList.tsx",
-                                        lineNumber: 55,
-                                        columnNumber: 15
-                                    }, this))
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/dashboard/FieldList.tsx",
-                                lineNumber: 53,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/dashboard/FieldList.tsx",
-                        lineNumber: 34,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/components/dashboard/FieldList.tsx",
-                lineNumber: 27,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "[project]/src/components/dashboard/FieldList.tsx",
-        lineNumber: 17,
-        columnNumber: 5
-    }, this);
-};
-_c = FieldList;
-var _c;
-__turbopack_refresh__.register(_c, "FieldList");
-if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
-    __turbopack_refresh__.registerExports(module, globalThis.$RefreshHelpers$);
-}
-}}),
-"[project]/src/app/page.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
-"use strict";
-
-var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, k: __turbopack_refresh__, m: module, z: __turbopack_require_stub__ } = __turbopack_context__;
-{
-// src/app/page.tsx
-__turbopack_esm__({
-    "default": (()=>HomePage)
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$shared$2f$lib$2f$app$2d$dynamic$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/shared/lib/app-dynamic.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$dashboard$2f$DashboardLayout$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/dashboard/DashboardLayout.tsx [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$dashboard$2f$FieldList$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/dashboard/FieldList.tsx [app-client] (ecmascript)");
-'use client';
-;
-;
-;
-;
-// Import Map component dynamically to avoid SSR issues
-const DynamicMap = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$shared$2f$lib$2f$app$2d$dynamic$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(()=>__turbopack_require__("[project]/src/components/dashboard/Map.tsx [app-client] (ecmascript, async loader)")(__turbopack_import__).then((mod)=>mod.Map), {
-    loadableGenerated: {
-        modules: [
-            "src/app/page.tsx -> " + "@/components/dashboard/Map"
-        ]
-    },
-    ssr: false,
-    loading: ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "w-full bg-white rounded-lg shadow-[0px_1px_3px_rgba(0,0,0,0.25)] overflow-hidden aspect-[1.63] max-md:max-w-full",
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "w-full h-full bg-gray-100 animate-pulse"
-            }, void 0, false, {
-                fileName: "[project]/src/app/page.tsx",
-                lineNumber: 15,
-                columnNumber: 9
-            }, this)
-        }, void 0, false, {
-            fileName: "[project]/src/app/page.tsx",
-            lineNumber: 14,
-            columnNumber: 7
-        }, this)
-});
-_c = DynamicMap;
-function HomePage() {
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$dashboard$2f$DashboardLayout$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DashboardLayout"], {
+        className: "flex flex-col w-[33%] max-md:ml-0 max-md:w-full",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex flex-col mt-3.5 max-md:mt-10 max-md:max-w-full",
+            className: "flex overflow-hidden flex-col grow w-full leading-none bg-white rounded-xl shadow-[0px_2px_4px_rgba(0,0,0,0.1)] max-md:mt-7 max-md:max-w-full",
             children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DynamicMap, {}, void 0, false, {
-                    fileName: "[project]/src/app/page.tsx",
-                    lineNumber: 26,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                    loading: "lazy",
+                    src: image,
+                    alt: alt,
+                    className: "object-contain w-full aspect-[2.08] max-md:max-w-full"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/weed-pressure/WeedTypeCard.tsx",
+                    lineNumber: 10,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex flex-col items-start pt-2.5 pr-20 pl-4 mt-4 w-full bg-white rounded-lg shadow-[0px_1px_3px_rgba(0,0,0,0.25)] max-md:pr-5 max-md:max-w-full",
+                    className: "flex flex-col items-start py-5 pr-20 pl-4 bg-black bg-opacity-0 max-md:pr-5 max-md:max-w-full",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex z-10 flex-wrap gap-5 justify-between max-w-full text-xl font-bold leading-none w-[973px]",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex gap-10",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "text-gray-600 basis-auto",
-                                            children: "Field: North-East Quarter"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/page.tsx",
-                                            lineNumber: 32,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "text-black",
-                                            children: "Location"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/page.tsx",
-                                            lineNumber: 35,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/app/page.tsx",
-                                    lineNumber: 31,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex gap-10 self-start text-black max-md:max-w-full",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            children: "Size"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/page.tsx",
-                                            lineNumber: 38,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            children: "Current Crop Type"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/page.tsx",
-                                            lineNumber: 39,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/app/page.tsx",
-                                    lineNumber: 37,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/app/page.tsx",
-                            lineNumber: 30,
+                            className: "text-lg font-semibold text-neutral-800",
+                            children: title
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/weed-pressure/WeedTypeCard.tsx",
+                            lineNumber: 17,
                             columnNumber: 11
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$dashboard$2f$FieldList$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FieldList"], {}, void 0, false, {
-                            fileName: "[project]/src/app/page.tsx",
-                            lineNumber: 42,
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "mt-5 text-base text-neutral-600",
+                            children: description
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/weed-pressure/WeedTypeCard.tsx",
+                            lineNumber: 18,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
-                    fileName: "[project]/src/app/page.tsx",
-                    lineNumber: 29,
+                    fileName: "[project]/src/components/weed-pressure/WeedTypeCard.tsx",
+                    lineNumber: 16,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
-            fileName: "[project]/src/app/page.tsx",
-            lineNumber: 24,
+            fileName: "[project]/src/components/weed-pressure/WeedTypeCard.tsx",
+            lineNumber: 9,
             columnNumber: 7
         }, this)
     }, void 0, false, {
-        fileName: "[project]/src/app/page.tsx",
-        lineNumber: 23,
+        fileName: "[project]/src/components/weed-pressure/WeedTypeCard.tsx",
+        lineNumber: 8,
         columnNumber: 5
     }, this);
-}
-_c1 = HomePage;
-var _c, _c1;
-__turbopack_refresh__.register(_c, "DynamicMap");
-__turbopack_refresh__.register(_c1, "HomePage");
+};
+_c = WeedTypeCard;
+var _c;
+__turbopack_refresh__.register(_c, "WeedTypeCard");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_refresh__.registerExports(module, globalThis.$RefreshHelpers$);
 }
 }}),
-"[project]/src/app/page.tsx [app-rsc] (ecmascript, Next.js server component, client modules)": ((__turbopack_context__) => {
+"[project]/src/components/weed-pressure/LegendItem.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, k: __turbopack_refresh__, m: module, z: __turbopack_require_stub__ } = __turbopack_context__;
+{
+// src/components/weed-pressure/LegendItem.tsx
+__turbopack_esm__({
+    "LegendItem": (()=>LegendItem)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+;
+const LegendItem = ({ color, text })=>{
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "flex flex-wrap gap-3 mt-1.5",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: `flex shrink-0 self-start ${color} h-[17px] rounded-[14415px] w-[17px]`
+            }, void 0, false, {
+                fileName: "[project]/src/components/weed-pressure/LegendItem.tsx",
+                lineNumber: 9,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex-auto max-md:max-w-full",
+                children: text
+            }, void 0, false, {
+                fileName: "[project]/src/components/weed-pressure/LegendItem.tsx",
+                lineNumber: 10,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/components/weed-pressure/LegendItem.tsx",
+        lineNumber: 8,
+        columnNumber: 5
+    }, this);
+};
+_c = LegendItem;
+var _c;
+__turbopack_refresh__.register(_c, "LegendItem");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_refresh__.registerExports(module, globalThis.$RefreshHelpers$);
+}
+}}),
+"[project]/src/components/weed-pressure/WeedPressureMap.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, k: __turbopack_refresh__, m: module, z: __turbopack_require_stub__ } = __turbopack_context__;
+{
+// src/components/weed-pressure/WeedPressureMap.tsx
+__turbopack_esm__({
+    "WeedPressureMap": (()=>WeedPressureMap)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$weed$2d$pressure$2f$WeedTypeCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/weed-pressure/WeedTypeCard.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$weed$2d$pressure$2f$LegendItem$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/weed-pressure/LegendItem.tsx [app-client] (ecmascript)");
+;
+;
+;
+const weedTypes = [
+    {
+        image: "https://cdn.builder.io/api/v1/image/assets/TEMP/c64cb7a3c52b9d0c9cce14c6661bc41f530e7586c9e026b28582598a384152c9?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
+        title: "Dandelion",
+        description: "Common perennial weed with yellow flowers.",
+        alt: "Image of Dandelion weed"
+    },
+    {
+        image: "https://cdn.builder.io/api/v1/image/assets/TEMP/56d286901eed35994eda09d498d203c20e874c0342f73b28d94d841f1d1c1d08?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
+        title: "Crabgrass",
+        description: "Annual grass weed that spreads quickly.",
+        alt: "Image of Crabgrass weed"
+    },
+    {
+        image: "https://cdn.builder.io/api/v1/image/assets/TEMP/074a84d84b39d5907f80100520a090a508422b019ced7140f9e22c22936b075d?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
+        title: "Thistle",
+        description: "Prickly weed with purple flowers.",
+        alt: "Image of Thistle weed"
+    }
+];
+const legendItems = [
+    {
+        color: "bg-fuchsia-600",
+        text: "Extreme weed infestations or specific zones that require further analysis."
+    },
+    {
+        color: "bg-red-500",
+        text: "High weed pressure, indicating critical zones that need immediate attention or treatment."
+    },
+    {
+        color: "bg-yellow-400",
+        text: "Moderate weed pressure, signaling areas that may require some intervention."
+    },
+    {
+        color: "bg-green-500",
+        text: "Low weed pressure or clean zones where weed infestation is minimal or non-existent."
+    }
+];
+const WeedPressureMap = ()=>{
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "flex overflow-hidden flex-col bg-white",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex flex-col w-full bg-black bg-opacity-0 max-md:max-w-full",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex flex-col pt-px pb-10 w-full bg-stone-50 max-md:max-w-full",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
+                        className: "flex flex-col px-8 py-8 mx-9 mt-12 bg-white rounded-xl shadow-[0px_4px_12px_rgba(0,0,0,0.1)] max-md:px-5 max-md:mt-10 max-md:mr-2.5 max-md:max-w-full",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex gap-5 justify-between items-start max-w-full bg-black bg-opacity-0 w-[1304px]",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "flex gap-6 self-start",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                className: "grow text-xl font-bold tracking-wide text-neutral-500",
+                                                children: "Weed Pressure Map"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                                                lineNumber: 43,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "text-base leading-none text-gray-600 basis-auto",
+                                                children: "Field: North-East Quarter #2B"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                                                lineNumber: 46,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                                        lineNumber: 42,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "flex z-10 flex-col my-auto mr-0 bg-black bg-opacity-0",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                            className: "flex gap-4 px-3 py-3.5 w-full bg-white rounded-lg border border-solid",
+                                            "aria-label": "Select Field",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "flex overflow-hidden justify-center items-center self-start min-h-[16px]",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                        loading: "lazy",
+                                                        src: "https://cdn.builder.io/api/v1/image/assets/TEMP/5d99ec0a10ea53c503914eb1b0c0d267970bde1995f7c0e876d1ff39ee159e12?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
+                                                        alt: "",
+                                                        className: "object-contain self-stretch my-auto w-3 aspect-[0.75]"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                                                        lineNumber: 53,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                                                    lineNumber: 52,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "grow shrink text-base text-gray-400 w-[238px]",
+                                                    children: "Select Field"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                                                    lineNumber: 60,
+                                                    columnNumber: 19
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                                            lineNumber: 51,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                                        lineNumber: 50,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                                lineNumber: 41,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                loading: "lazy",
+                                src: "https://cdn.builder.io/api/v1/image/assets/TEMP/bfee8f55-312f-4823-9f16-91e4895dc994?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
+                                alt: "Weed pressure map visualization",
+                                className: "object-contain mt-6 w-full rounded-lg aspect-[2.34] max-md:max-w-full"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                                lineNumber: 67,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex flex-col items-start py-3 pr-20 pl-3 mt-6 ml-7 text-lg leading-none text-black bg-white rounded-lg shadow-[0px_1px_3px_rgba(0,0,0,0.05)] max-md:pr-5 max-md:max-w-full",
+                                children: legendItems.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$weed$2d$pressure$2f$LegendItem$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["LegendItem"], {
+                                        ...item
+                                    }, index, false, {
+                                        fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                                        lineNumber: 76,
+                                        columnNumber: 17
+                                    }, this))
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                                lineNumber: 74,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex gap-5 self-end mt-16 text-base text-center whitespace-nowrap max-md:mt-10",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        className: "px-14 pt-3 pb-5 text-white rounded-lg bg-neutral-500 max-md:px-5",
+                                        children: "Filter"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                                        lineNumber: 81,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        className: "px-16 py-4 rounded-lg border border-emerald-200 border-solid bg-black bg-opacity-0 text-neutral-500 max-md:px-5",
+                                        children: "Export"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                                        lineNumber: 84,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                                lineNumber: 80,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                        lineNumber: 40,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                        className: "flex flex-col px-9 pt-8 pb-5 mt-14 mr-9 ml-9 bg-white rounded-xl shadow-[0px_4px_12px_rgba(0,0,0,0.1)] max-md:px-5 max-md:mt-10 max-md:mr-2.5 max-md:max-w-full",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex flex-wrap gap-5 justify-between w-full max-md:mr-1.5 max-md:max-w-full",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                        className: "my-auto text-xl font-bold tracking-wide text-neutral-500",
+                                        children: "Found Weed Types"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                                        lineNumber: 92,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "flex gap-10",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                loading: "lazy",
+                                                src: "https://cdn.builder.io/api/v1/image/assets/TEMP/837fb451949c30c43b742a021d7d7324e70bead1e87459406b85c38508c1a394?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
+                                                alt: "Filter option",
+                                                className: "object-contain shrink-0 w-11 aspect-[1.29]"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                                                lineNumber: 96,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                loading: "lazy",
+                                                src: "https://cdn.builder.io/api/v1/image/assets/TEMP/4dac6215118e38657742adbf0eea11f51039eea157a37751c9dde95d3cab8b33?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
+                                                alt: "Settings",
+                                                className: "object-contain shrink-0 aspect-square w-[34px]"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                                                lineNumber: 102,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                                        lineNumber: 95,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                                lineNumber: 91,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "px-1.5 pt-0.5 pb-3 mt-4 ml-5 bg-black bg-opacity-0 max-md:max-w-full",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex gap-5 max-md:flex-col",
+                                    children: weedTypes.map((weed, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$weed$2d$pressure$2f$WeedTypeCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["WeedTypeCard"], {
+                                            ...weed
+                                        }, index, false, {
+                                            fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                                            lineNumber: 114,
+                                            columnNumber: 19
+                                        }, this))
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                                    lineNumber: 112,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                                lineNumber: 111,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex flex-wrap gap-5 justify-between items-start mt-1.5 ml-8 w-full max-w-[1318px] max-md:mr-1.5 max-md:max-w-full",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "flex gap-2.5 text-xs font-semibold leading-none whitespace-nowrap text-neutral-800",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                loading: "lazy",
+                                                src: "https://cdn.builder.io/api/v1/image/assets/TEMP/cce574c26a188da97e31406bd02b92f31d8196fecd57ed13ef9c17695d1869d8?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
+                                                alt: "Weed indicator",
+                                                className: "object-contain shrink-0 self-start w-7 aspect-[1.75]"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                                                lineNumber: 121,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                children: "Weed"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                                                lineNumber: 127,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "flex gap-2",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                        loading: "lazy",
+                                                        src: "https://cdn.builder.io/api/v1/image/assets/TEMP/098a92f72029e7cf9ccf8d7786ddef60fb9e8b737d700179ed311417e6fdcdc8?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
+                                                        alt: "Crop indicator",
+                                                        className: "object-contain shrink-0 self-start w-7 aspect-[1.75]"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                                                        lineNumber: 129,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        children: "Crop"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                                                        lineNumber: 135,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                                                lineNumber: 128,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                                        lineNumber: 120,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        className: "px-3.5 py-4 mt-4 text-base text-center text-white rounded-lg bg-neutral-500",
+                                        children: "Generate Report"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                                        lineNumber: 138,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                                lineNumber: 119,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                        lineNumber: 90,
+                        columnNumber: 11
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+                lineNumber: 38,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+            lineNumber: 37,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/src/components/weed-pressure/WeedPressureMap.tsx",
+        lineNumber: 36,
+        columnNumber: 5
+    }, this);
+};
+_c = WeedPressureMap;
+var _c;
+__turbopack_refresh__.register(_c, "WeedPressureMap");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_refresh__.registerExports(module, globalThis.$RefreshHelpers$);
+}
+}}),
+"[project]/src/components/weed-pressure/WeedPressureContent.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, k: __turbopack_refresh__, m: module, z: __turbopack_require_stub__ } = __turbopack_context__;
+{
+// src/components/weed-pressure/WeedPressureContent.tsx
+__turbopack_esm__({
+    "WeedPressureContent": (()=>WeedPressureContent)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$weed$2d$pressure$2f$WeedPressureMap$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/weed-pressure/WeedPressureMap.tsx [app-client] (ecmascript)");
+;
+;
+const WeedPressureContent = ()=>{
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "flex flex-col mt-3.5 max-md:mt-10 max-md:max-w-full",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                className: "text-2xl font-bold mb-4",
+                children: "Weed Pressure"
+            }, void 0, false, {
+                fileName: "[project]/src/components/weed-pressure/WeedPressureContent.tsx",
+                lineNumber: 8,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$weed$2d$pressure$2f$WeedPressureMap$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["WeedPressureMap"], {}, void 0, false, {
+                fileName: "[project]/src/components/weed-pressure/WeedPressureContent.tsx",
+                lineNumber: 9,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/components/weed-pressure/WeedPressureContent.tsx",
+        lineNumber: 7,
+        columnNumber: 5
+    }, this);
+};
+_c = WeedPressureContent;
+var _c;
+__turbopack_refresh__.register(_c, "WeedPressureContent");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_refresh__.registerExports(module, globalThis.$RefreshHelpers$);
+}
+}}),
+"[project]/src/app/weed-pressure/page.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, k: __turbopack_refresh__, m: module, z: __turbopack_require_stub__ } = __turbopack_context__;
+{
+// src/app/weed-pressure/page.tsx
+__turbopack_esm__({
+    "default": (()=>WeedPressurePage)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$dashboard$2f$DashboardLayout$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/dashboard/DashboardLayout.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$weed$2d$pressure$2f$WeedPressureContent$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/weed-pressure/WeedPressureContent.tsx [app-client] (ecmascript)");
+'use client';
+;
+;
+;
+function WeedPressurePage() {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$dashboard$2f$DashboardLayout$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DashboardLayout"], {
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$weed$2d$pressure$2f$WeedPressureContent$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["WeedPressureContent"], {}, void 0, false, {
+            fileName: "[project]/src/app/weed-pressure/page.tsx",
+            lineNumber: 10,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/src/app/weed-pressure/page.tsx",
+        lineNumber: 9,
+        columnNumber: 5
+    }, this);
+}
+_c = WeedPressurePage;
+var _c;
+__turbopack_refresh__.register(_c, "WeedPressurePage");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_refresh__.registerExports(module, globalThis.$RefreshHelpers$);
+}
+}}),
+"[project]/src/app/weed-pressure/page.tsx [app-rsc] (ecmascript, Next.js server component, client modules)": ((__turbopack_context__) => {
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, t: __turbopack_require_real__ } = __turbopack_context__;
 {
@@ -1083,239 +1241,6 @@ if ("TURBOPACK compile-time falsy", 0) {
 } else {
     module.exports = __turbopack_require__("[project]/node_modules/next/dist/compiled/react/cjs/react-jsx-dev-runtime.development.js [app-client] (ecmascript)");
 }
-}}),
-"[project]/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-bailout-to-csr.js [app-client] (ecmascript)": (function(__turbopack_context__) {
-
-var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, m: module, e: exports, t: __turbopack_require_real__ } = __turbopack_context__;
-{
-'use client';
-"use strict";
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-Object.defineProperty(exports, "BailoutToCSR", {
-    enumerable: true,
-    get: function() {
-        return BailoutToCSR;
-    }
-});
-const _bailouttocsr = __turbopack_require__("[project]/node_modules/next/dist/shared/lib/lazy-dynamic/bailout-to-csr.js [app-client] (ecmascript)");
-function BailoutToCSR(param) {
-    let { reason, children } = param;
-    if (typeof window === 'undefined') {
-        throw new _bailouttocsr.BailoutToCSRError(reason);
-    }
-    return children;
-} //# sourceMappingURL=dynamic-bailout-to-csr.js.map
-}}),
-"[project]/node_modules/next/dist/shared/lib/encode-uri-path.js [app-client] (ecmascript)": (function(__turbopack_context__) {
-
-var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, m: module, e: exports, t: __turbopack_require_real__ } = __turbopack_context__;
-{
-"use strict";
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-Object.defineProperty(exports, "encodeURIPath", {
-    enumerable: true,
-    get: function() {
-        return encodeURIPath;
-    }
-});
-function encodeURIPath(file) {
-    return file.split('/').map((p)=>encodeURIComponent(p)).join('/');
-} //# sourceMappingURL=encode-uri-path.js.map
-}}),
-"[project]/node_modules/next/dist/shared/lib/lazy-dynamic/preload-chunks.js [app-client] (ecmascript)": (function(__turbopack_context__) {
-
-var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, m: module, e: exports, t: __turbopack_require_real__ } = __turbopack_context__;
-{
-'use client';
-"use strict";
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-Object.defineProperty(exports, "PreloadChunks", {
-    enumerable: true,
-    get: function() {
-        return PreloadChunks;
-    }
-});
-const _jsxruntime = __turbopack_require__("[project]/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
-const _reactdom = __turbopack_require__("[project]/node_modules/next/dist/compiled/react-dom/index.js [app-client] (ecmascript)");
-const _workasyncstorageexternal = __turbopack_require__("[project]/node_modules/next/dist/server/app-render/work-async-storage.external.js [app-client] (ecmascript)");
-const _encodeuripath = __turbopack_require__("[project]/node_modules/next/dist/shared/lib/encode-uri-path.js [app-client] (ecmascript)");
-function PreloadChunks(param) {
-    let { moduleIds } = param;
-    // Early return in client compilation and only load requestStore on server side
-    if (typeof window !== 'undefined') {
-        return null;
-    }
-    const workStore = _workasyncstorageexternal.workAsyncStorage.getStore();
-    if (workStore === undefined) {
-        return null;
-    }
-    const allFiles = [];
-    // Search the current dynamic call unique key id in react loadable manifest,
-    // and find the corresponding CSS files to preload
-    if (workStore.reactLoadableManifest && moduleIds) {
-        const manifest = workStore.reactLoadableManifest;
-        for (const key of moduleIds){
-            if (!manifest[key]) continue;
-            const chunks = manifest[key].files;
-            allFiles.push(...chunks);
-        }
-    }
-    if (allFiles.length === 0) {
-        return null;
-    }
-    return /*#__PURE__*/ (0, _jsxruntime.jsx)(_jsxruntime.Fragment, {
-        children: allFiles.map((chunk)=>{
-            const href = workStore.assetPrefix + "/_next/" + (0, _encodeuripath.encodeURIPath)(chunk);
-            const isCss = chunk.endsWith('.css');
-            // If it's stylesheet we use `precedence` o help hoist with React Float.
-            // For stylesheets we actually need to render the CSS because nothing else is going to do it so it needs to be part of the component tree.
-            // The `preload` for stylesheet is not optional.
-            if (isCss) {
-                return /*#__PURE__*/ (0, _jsxruntime.jsx)("link", {
-                    // @ts-ignore
-                    precedence: "dynamic",
-                    href: href,
-                    rel: "stylesheet",
-                    as: "style"
-                }, chunk);
-            } else {
-                // If it's script we use ReactDOM.preload to preload the resources
-                (0, _reactdom.preload)(href, {
-                    as: 'script',
-                    fetchPriority: 'low'
-                });
-                return null;
-            }
-        })
-    });
-} //# sourceMappingURL=preload-chunks.js.map
-}}),
-"[project]/node_modules/next/dist/shared/lib/lazy-dynamic/loadable.js [app-client] (ecmascript)": (function(__turbopack_context__) {
-
-var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, m: module, e: exports, t: __turbopack_require_real__ } = __turbopack_context__;
-{
-"use strict";
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-Object.defineProperty(exports, "default", {
-    enumerable: true,
-    get: function() {
-        return _default;
-    }
-});
-const _jsxruntime = __turbopack_require__("[project]/node_modules/next/dist/compiled/react/jsx-runtime.js [app-client] (ecmascript)");
-const _react = __turbopack_require__("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
-const _dynamicbailouttocsr = __turbopack_require__("[project]/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-bailout-to-csr.js [app-client] (ecmascript)");
-const _preloadchunks = __turbopack_require__("[project]/node_modules/next/dist/shared/lib/lazy-dynamic/preload-chunks.js [app-client] (ecmascript)");
-// Normalize loader to return the module as form { default: Component } for `React.lazy`.
-// Also for backward compatible since next/dynamic allows to resolve a component directly with loader
-// Client component reference proxy need to be converted to a module.
-function convertModule(mod) {
-    // Check "default" prop before accessing it, as it could be client reference proxy that could break it reference.
-    // Cases:
-    // mod: { default: Component }
-    // mod: Component
-    // mod: { default: proxy(Component) }
-    // mod: proxy(Component)
-    const hasDefault = mod && 'default' in mod;
-    return {
-        default: hasDefault ? mod.default : mod
-    };
-}
-const defaultOptions = {
-    loader: ()=>Promise.resolve(convertModule(()=>null)),
-    loading: null,
-    ssr: true
-};
-function Loadable(options) {
-    const opts = {
-        ...defaultOptions,
-        ...options
-    };
-    const Lazy = /*#__PURE__*/ (0, _react.lazy)(()=>opts.loader().then(convertModule));
-    const Loading = opts.loading;
-    function LoadableComponent(props) {
-        const fallbackElement = Loading ? /*#__PURE__*/ (0, _jsxruntime.jsx)(Loading, {
-            isLoading: true,
-            pastDelay: true,
-            error: null
-        }) : null;
-        // If it's non-SSR or provided a loading component, wrap it in a suspense boundary
-        const hasSuspenseBoundary = !opts.ssr || !!opts.loading;
-        const Wrap = hasSuspenseBoundary ? _react.Suspense : _react.Fragment;
-        const wrapProps = hasSuspenseBoundary ? {
-            fallback: fallbackElement
-        } : {};
-        const children = opts.ssr ? /*#__PURE__*/ (0, _jsxruntime.jsxs)(_jsxruntime.Fragment, {
-            children: [
-                typeof window === 'undefined' ? /*#__PURE__*/ (0, _jsxruntime.jsx)(_preloadchunks.PreloadChunks, {
-                    moduleIds: opts.modules
-                }) : null,
-                /*#__PURE__*/ (0, _jsxruntime.jsx)(Lazy, {
-                    ...props
-                })
-            ]
-        }) : /*#__PURE__*/ (0, _jsxruntime.jsx)(_dynamicbailouttocsr.BailoutToCSR, {
-            reason: "next/dynamic",
-            children: /*#__PURE__*/ (0, _jsxruntime.jsx)(Lazy, {
-                ...props
-            })
-        });
-        return /*#__PURE__*/ (0, _jsxruntime.jsx)(Wrap, {
-            ...wrapProps,
-            children: children
-        });
-    }
-    LoadableComponent.displayName = 'LoadableComponent';
-    return LoadableComponent;
-}
-const _default = Loadable; //# sourceMappingURL=loadable.js.map
-}}),
-"[project]/node_modules/next/dist/shared/lib/app-dynamic.js [app-client] (ecmascript)": (function(__turbopack_context__) {
-
-var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, m: module, e: exports, t: __turbopack_require_real__ } = __turbopack_context__;
-{
-"use strict";
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-Object.defineProperty(exports, "default", {
-    enumerable: true,
-    get: function() {
-        return dynamic;
-    }
-});
-const _interop_require_default = __turbopack_require__("[project]/node_modules/@swc/helpers/cjs/_interop_require_default.cjs [app-client] (ecmascript)");
-const _loadable = /*#__PURE__*/ _interop_require_default._(__turbopack_require__("[project]/node_modules/next/dist/shared/lib/lazy-dynamic/loadable.js [app-client] (ecmascript)"));
-function dynamic(dynamicOptions, options) {
-    var _mergedOptions_loadableGenerated;
-    const loadableOptions = {};
-    if (typeof dynamicOptions === 'function') {
-        loadableOptions.loader = dynamicOptions;
-    }
-    const mergedOptions = {
-        ...loadableOptions,
-        ...options
-    };
-    return (0, _loadable.default)({
-        ...mergedOptions,
-        modules: (_mergedOptions_loadableGenerated = mergedOptions.loadableGenerated) == null ? void 0 : _mergedOptions_loadableGenerated.modules
-    });
-}
-if ((typeof exports.default === 'function' || typeof exports.default === 'object' && exports.default !== null) && typeof exports.default.__esModule === 'undefined') {
-    Object.defineProperty(exports.default, '__esModule', {
-        value: true
-    });
-    Object.assign(exports.default, exports);
-    module.exports = exports.default;
-} //# sourceMappingURL=app-dynamic.js.map
 }}),
 "[project]/node_modules/next/dist/shared/lib/router/utils/querystring.js [app-client] (ecmascript)": (function(__turbopack_context__) {
 
@@ -2306,4 +2231,4 @@ module.exports = __turbopack_require__("[project]/node_modules/next/dist/client/
 }}),
 }]);
 
-//# sourceMappingURL=_fed948._.js.map
+//# sourceMappingURL=_1b6a71._.js.map

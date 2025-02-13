@@ -49,25 +49,10 @@ export const DashboardLayout: React.FC<{ children: React.ReactNode }> = ({ child
                   className="object-cover absolute inset-0 size-full cursor-pointer" // Add cursor-pointer for better UX
                 />
               </Link>
-              <img
-                loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/18c67ec604fbb7885861982b868b85eb9d2477cc5decf6e4a786469d223eeda5?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0"
-                alt="Logo"
-                className="object-contain rounded-sm aspect-square w-[38px]"
-              />
             </div>
-            <SearchBar
-              searchIcon="https://cdn.builder.io/api/v1/image/assets/TEMP/b90846117660f87093ed45f797b9c656888a22f5b3ce0b6ce7d8eac23ad0deb9?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0"
-              placeholder="Search"
-            />
           </div>
           <div className="flex gap-px self-start">
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/06b4a8707a24e9b6e9056d5db7d5d92dd0e552859e29b7d150a6059aef5cf572?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0"
-              alt=""
-              className="object-contain shrink-0 my-auto aspect-[2.42] w-[92px]"
-            />
+
             <img
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/96f544cf09ff8a4c6ff0a464f3a74861da49038e0729c0ff1901b10609b23e8b?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0"

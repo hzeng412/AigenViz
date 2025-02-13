@@ -6,17 +6,7 @@ var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_
 {
 __turbopack_export_value__((__turbopack_import__) => {
     return Promise.all([
-  "static/chunks/node_modules_mapbox-gl_dist_mapbox-gl_0f9823.js",
   "static/chunks/src_components_dashboard_Map_tsx_fec3ea._.js",
-  {
-    "path": "static/chunks/node_modules_mapbox-gl_dist_mapbox-gl_0eb0dc.css",
-    "included": [
-      "[project]/node_modules/mapbox-gl/dist/mapbox-gl.css [app-client] (css)"
-    ],
-    "moduleChunks": [
-      "static/chunks/node_modules_mapbox-gl_dist_mapbox-gl_b52d8e.css"
-    ]
-  },
   "static/chunks/src_components_dashboard_Map_tsx_481077._.js"
 ].map((chunk) => __turbopack_load__(chunk))).then(() => {
         return __turbopack_import__("[project]/src/components/dashboard/Map.tsx [app-client] (ecmascript)");

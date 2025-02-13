@@ -50,31 +50,40 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navi
 ;
 const SidebarItem = ({ icon, text, path })=>{
     const pathname = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["usePathname"])();
+    const isActive = pathname === path;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
         href: path,
-        className: `flex gap-4 items-center px-4 py-2 rounded-lg cursor-pointer transition-colors duration-200
-        ${pathname === path ? 'bg-gray-100 font-medium' : 'hover:bg-gray-50'}`,
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "w-6 h-6 flex items-center justify-center",
-                children: icon
-            }, void 0, false, {
-                fileName: "[project]/src/components/dashboard/SidebarItem.tsx",
-                lineNumber: 22,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                className: "text-base",
-                children: text
-            }, void 0, false, {
-                fileName: "[project]/src/components/dashboard/SidebarItem.tsx",
-                lineNumber: 25,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: `flex gap-4 items-center px-4 py-2 rounded-lg cursor-pointer transition-colors
+        ${isActive ? 'bg-[#2a9688ff]' : 'hover:bg-gray-300'}`,
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                    loading: "lazy",
+                    src: icon,
+                    alt: `${text} icon`,
+                    className: "object-contain w-6 h-6"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/dashboard/SidebarItem.tsx",
+                    lineNumber: 21,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                    className: `text-base text-black ${isActive ? 'font-medium bg-[#2a9688ff]' : 'font-normal'}`,
+                    children: text
+                }, void 0, false, {
+                    fileName: "[project]/src/components/dashboard/SidebarItem.tsx",
+                    lineNumber: 27,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/dashboard/SidebarItem.tsx",
+            lineNumber: 19,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
         fileName: "[project]/src/components/dashboard/SidebarItem.tsx",
-        lineNumber: 17,
+        lineNumber: 18,
         columnNumber: 5
     }, this);
 };
@@ -89,141 +98,35 @@ __turbopack_esm__({
     "DashboardLayout": (()=>DashboardLayout)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)"); // Import the Link component
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$dashboard$2f$SidebarItem$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/dashboard/SidebarItem.tsx [app-ssr] (ecmascript)");
-'use client';
+;
 ;
 ;
 const DashboardLayout = ({ children })=>{
     const sidebarItems = [
         {
-            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                className: "w-5 h-5",
-                viewBox: "0 0 24 24",
-                fill: "none",
-                stroke: "currentColor",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                    strokeLinecap: "round",
-                    strokeLinejoin: "round",
-                    strokeWidth: 2,
-                    d: "M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
-                }, void 0, false, {
-                    fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                    lineNumber: 11,
-                    columnNumber: 11
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                lineNumber: 10,
-                columnNumber: 9
-            }, this),
+            icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/d6f777c6b0b69916f2b94afb38cfdf0a9703cbd1bd351aae120acb7abfc4b96b?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
             text: "Home",
             path: "/"
         },
         {
-            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                className: "w-5 h-5",
-                viewBox: "0 0 24 24",
-                fill: "none",
-                stroke: "currentColor",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                    strokeLinecap: "round",
-                    strokeLinejoin: "round",
-                    strokeWidth: 2,
-                    d: "M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7"
-                }, void 0, false, {
-                    fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                    lineNumber: 20,
-                    columnNumber: 11
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                lineNumber: 19,
-                columnNumber: 9
-            }, this),
+            icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/a5ebf1ea86fc64865136abdc377205dccd460d0b7f3c14735e3e50b0825de223?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
             text: "Weed Pressure",
             path: "/weed-pressure"
         },
         {
-            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                className: "w-5 h-5",
-                viewBox: "0 0 24 24",
-                fill: "none",
-                stroke: "currentColor",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                    strokeLinecap: "round",
-                    strokeLinejoin: "round",
-                    strokeWidth: 2,
-                    d: "M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"
-                }, void 0, false, {
-                    fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                    lineNumber: 29,
-                    columnNumber: 11
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                lineNumber: 28,
-                columnNumber: 9
-            }, this),
+            icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/7f1010d2415d45fe331c82f1af948b1577b4af7464d2ddbce6710dd4772d53cb?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
             text: "Crop Status",
             path: "/crop-status"
         },
         {
-            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                className: "w-5 h-5",
-                viewBox: "0 0 24 24",
-                fill: "none",
-                stroke: "currentColor",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                    strokeLinecap: "round",
-                    strokeLinejoin: "round",
-                    strokeWidth: 2,
-                    d: "M13 10V3L4 14h7v7l9-11h-7z"
-                }, void 0, false, {
-                    fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                    lineNumber: 38,
-                    columnNumber: 11
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                lineNumber: 37,
-                columnNumber: 9
-            }, this),
+            icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/cd9b8661dd01af93213a983821f2d3bd920b6d887115bbd836903772b819b147?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
             text: "Insights",
             path: "/insights"
         },
         {
-            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                className: "w-5 h-5",
-                viewBox: "0 0 24 24",
-                fill: "none",
-                stroke: "currentColor",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                        strokeLinecap: "round",
-                        strokeLinejoin: "round",
-                        strokeWidth: 2,
-                        d: "M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                        lineNumber: 47,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                        strokeLinecap: "round",
-                        strokeLinejoin: "round",
-                        strokeWidth: 2,
-                        d: "M15 12a3 3 0 11-6 0 3 3 0 016 0z"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                        lineNumber: 48,
-                        columnNumber: 11
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                lineNumber: 46,
-                columnNumber: 9
-            }, this),
+            icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/cd9b8661dd01af93213a983821f2d3bd920b6d887115bbd836903772b819b147?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
             text: "Settings",
             path: "/settings"
         }
@@ -238,88 +141,64 @@ const DashboardLayout = ({ children })=>{
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex flex-wrap gap-10",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex relative flex-col justify-center items-start py-1.5 aspect-[4.104] w-[197px]",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex relative flex-col justify-center items-start py-1.5 aspect-[4.104] w-[197px]",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                    href: "",
                                     children: [
+                                        " ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                             loading: "lazy",
                                             src: "https://cdn.builder.io/api/v1/image/assets/TEMP/d58d48f77a1bf41f3c7f2dfa609beda9f2342a8aa32a203e5b3cbd0323c48eb5?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
-                                            alt: "",
-                                            className: "object-cover absolute inset-0 size-full"
+                                            alt: "Click to return to home",
+                                            className: "object-cover absolute inset-0 size-full cursor-pointer" // Add cursor-pointer for better UX
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                                            lineNumber: 63,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                            loading: "lazy",
-                                            src: "https://cdn.builder.io/api/v1/image/assets/TEMP/18c67ec604fbb7885861982b868b85eb9d2477cc5decf6e4a786469d223eeda5?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
-                                            alt: "Logo",
-                                            className: "object-contain rounded-sm aspect-square w-[38px]"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                                            lineNumber: 69,
-                                            columnNumber: 15
+                                            lineNumber: 45,
+                                            columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                                    lineNumber: 62,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(SearchBar, {
-                                    searchIcon: "https://cdn.builder.io/api/v1/image/assets/TEMP/b90846117660f87093ed45f797b9c656888a22f5b3ce0b6ce7d8eac23ad0deb9?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
-                                    placeholder: "Search"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                                    lineNumber: 76,
-                                    columnNumber: 13
+                                    lineNumber: 44,
+                                    columnNumber: 15
                                 }, this)
-                            ]
-                        }, void 0, true, {
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
+                                lineNumber: 42,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
                             fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                            lineNumber: 61,
+                            lineNumber: 41,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex gap-px self-start",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                    loading: "lazy",
-                                    src: "https://cdn.builder.io/api/v1/image/assets/TEMP/06b4a8707a24e9b6e9056d5db7d5d92dd0e552859e29b7d150a6059aef5cf572?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
-                                    alt: "",
-                                    className: "object-contain shrink-0 my-auto aspect-[2.42] w-[92px]"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                                    lineNumber: 82,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                    loading: "lazy",
-                                    src: "https://cdn.builder.io/api/v1/image/assets/TEMP/96f544cf09ff8a4c6ff0a464f3a74861da49038e0729c0ff1901b10609b23e8b?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
-                                    alt: "User profile",
-                                    className: "object-contain shrink-0 w-11 rounded-sm aspect-square"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                                    lineNumber: 88,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                loading: "lazy",
+                                src: "https://cdn.builder.io/api/v1/image/assets/TEMP/96f544cf09ff8a4c6ff0a464f3a74861da49038e0729c0ff1901b10609b23e8b?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
+                                alt: "User profile",
+                                className: "object-contain shrink-0 w-11 rounded-sm aspect-square"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
+                                lineNumber: 56,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
                             fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                            lineNumber: 81,
+                            lineNumber: 54,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                    lineNumber: 60,
+                    lineNumber: 40,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                lineNumber: 59,
+                lineNumber: 39,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -337,7 +216,7 @@ const DashboardLayout = ({ children })=>{
                                         children: "Dashboard"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                                        lineNumber: 103,
+                                        lineNumber: 71,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -348,28 +227,28 @@ const DashboardLayout = ({ children })=>{
                                                     ...item
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                                                    lineNumber: 109,
+                                                    lineNumber: 77,
                                                     columnNumber: 21
                                                 }, this)
                                             }, index, false, {
                                                 fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                                                lineNumber: 108,
+                                                lineNumber: 76,
                                                 columnNumber: 19
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                                        lineNumber: 106,
+                                        lineNumber: 74,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                                lineNumber: 102,
+                                lineNumber: 70,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                            lineNumber: 101,
+                            lineNumber: 69,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -377,24 +256,24 @@ const DashboardLayout = ({ children })=>{
                             children: children
                         }, void 0, false, {
                             fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                            lineNumber: 117,
+                            lineNumber: 85,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                    lineNumber: 99,
+                    lineNumber: 67,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-                lineNumber: 98,
+                lineNumber: 66,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/dashboard/DashboardLayout.tsx",
-        lineNumber: 57,
+        lineNumber: 37,
         columnNumber: 5
     }, this);
 };

@@ -1,12 +1,15 @@
-// src/components/weed-pressure/types.ts
 export interface WeedTypeCardProps {
-    image: string;
-    title: string;
-    description: string;
-    alt: string;
-  }
-  
-  export interface LegendItemProps {
-    color: string;
-    text: string;
-  }
+  name: string;
+  description: string;
+  imageSrc: string;
+  isLast?: boolean;
+}
+
+export interface LegendItemProps {
+  color: string;
+  text: string;
+}
+
+export interface FieldSelectorProps {
+  // 如果需要添加属性
+}

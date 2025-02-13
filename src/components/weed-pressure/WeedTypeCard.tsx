@@ -1,23 +1,75 @@
 // src/components/weed-pressure/WeedTypeCard.tsx
 
-import * as React from "react";
-import { WeedTypeCardProps } from "./types";
+import * as React from 'react';
 
-export const WeedTypeCard: React.FC<WeedTypeCardProps> = ({ image, title, description, alt }) => {
-  return (
-    <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
-      <div className="flex overflow-hidden flex-col grow w-full leading-none bg-white rounded-xl shadow-[0px_2px_4px_rgba(0,0,0,0.1)] max-md:mt-7 max-md:max-w-full">
-        <img
-          loading="lazy"
-          src={image}
-          alt={alt}
-          className="object-contain w-full aspect-[2.08] max-md:max-w-full"
-        />
-        <div className="flex flex-col items-start py-5 pr-20 pl-4 bg-black bg-opacity-0 max-md:pr-5 max-md:max-w-full">
-          <div className="text-lg font-semibold text-neutral-800">{title}</div>
-          <div className="mt-5 text-base text-neutral-600">{description}</div>
-        </div>
-      </div>
-    </div>
+interface WeedTypeCardProps {
+  name: string;
+  description: string;
+  imageSrc: string;
+  isLast?: boolean;
+}
+
+export const WeedTypeCard: React.FC<WeedTypeCardProps> = ({ name, description, imageSrc, isLast }) => {
+  return React.createElement('div',
+    { className: "flex-1 min-w-0" },
+    [
+      React.createElement('div',
+        {
+          key: "card-container",
+          className: "flex flex-col h-full bg-white rounded-xl border border-solid border-gray-200"
+        },
+        [
+          React.createElement('div',
+            {
+              key: "image-container",
+              className: "relative w-full pt-[56.25%]"
+            },
+            React.createElement('img',
+              {
+                key: "weed-image",
+                loading: "lazy",
+                src: imageSrc,
+                className: "absolute top-0 left-0 w-full h-full object-cover rounded-t-xl",
+                alt: `${name} weed`
+              }
+            )
+          ),
+          React.createElement('div',
+            {
+              key: "content-container",
+              className: "flex flex-col flex-grow p-6"
+            },
+            [
+              React.createElement('div',
+                {
+                  key: "title",
+                  className: "text-xl font-semibold text-neutral-800 mb-4"
+                },
+                name
+              ),
+              React.createElement('div',
+                {
+                  key: "description",
+                  className: "text-base text-neutral-600"
+                },
+                description
+              )
+            ]
+          )
+        ]
+      ),
+      isLast && React.createElement('div',
+        {
+          key: "generate-report",
+          className: "mt-4 text-center"
+        },
+        React.createElement('button',
+          {
+            className: "px-4 py-3 text-base text-white rounded-lg bg-neutral-500"
+          },
+          "Generate Report"
+        )
+      )
+    ]
   );
 };

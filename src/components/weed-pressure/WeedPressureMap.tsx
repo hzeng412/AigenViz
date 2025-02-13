@@ -1,147 +1,213 @@
 // src/components/weed-pressure/WeedPressureMap.tsx
 import * as React from "react";
 import { WeedTypeCard } from "./WeedTypeCard";
-import { LegendItem } from "./LegendItem";
+import { WeedPressureLegend } from "./WeedPressureLegend";
+import { FieldSelector } from "./FieldSelector";
 
 const weedTypes = [
   {
-    image: "https://cdn.builder.io/api/v1/image/assets/TEMP/c64cb7a3c52b9d0c9cce14c6661bc41f530e7586c9e026b28582598a384152c9?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
-    title: "Dandelion",
+    name: "Dandelion",
     description: "Common perennial weed with yellow flowers.",
-    alt: "Image of Dandelion weed"
+    imageSrc: "https://cdn.builder.io/api/v1/image/assets/a8eb05b1cab740ac8ba52685a6faf2c4/18c2bdea1903b8b1c801d82a3a86a4666ae7edc5bc303a17b561431b05145821?apiKey=a8eb05b1cab740ac8ba52685a6faf2c4&"
   },
   {
-    image: "https://cdn.builder.io/api/v1/image/assets/TEMP/56d286901eed35994eda09d498d203c20e874c0342f73b28d94d841f1d1c1d08?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
-    title: "Crabgrass",
+    name: "Crabgrass",
     description: "Annual grass weed that spreads quickly.",
-    alt: "Image of Crabgrass weed"
+    imageSrc: "https://cdn.builder.io/api/v1/image/assets/a8eb05b1cab740ac8ba52685a6faf2c4/afb1e57db58ca7988fac94f9efbe3acbb45e4945292fba311fff33eb4903365f?apiKey=a8eb05b1cab740ac8ba52685a6faf2c4&"
   },
   {
-    image: "https://cdn.builder.io/api/v1/image/assets/TEMP/074a84d84b39d5907f80100520a090a508422b019ced7140f9e22c22936b075d?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
-    title: "Thistle",
+    name: "Thistle",
     description: "Prickly weed with purple flowers.",
-    alt: "Image of Thistle weed"
+    imageSrc: "https://cdn.builder.io/api/v1/image/assets/a8eb05b1cab740ac8ba52685a6faf2c4/545ec60bc636b41f51c09c066152913e1f28926c3e7187b3695d4b4c1c4f890d?apiKey=a8eb05b1cab740ac8ba52685a6faf2c4&"
   }
 ];
 
-const legendItems = [
-  { color: "bg-fuchsia-600", text: "Extreme weed infestations or specific zones that require further analysis." },
-  { color: "bg-red-500", text: "High weed pressure, indicating critical zones that need immediate attention or treatment." },
-  { color: "bg-yellow-400", text: "Moderate weed pressure, signaling areas that may require some intervention." },
-  { color: "bg-green-500", text: "Low weed pressure or clean zones where weed infestation is minimal or non-existent." }
-];
-
 export const WeedPressureMap: React.FC = () => {
-  return (
-    <div className="flex overflow-hidden flex-col bg-white">
-      <div className="flex flex-col w-full bg-black bg-opacity-0 max-md:max-w-full">
-        <div className="flex flex-col pt-px pb-10 w-full bg-stone-50 max-md:max-w-full">
-        
-          <main className="flex flex-col px-8 py-8 mx-9 mt-12 bg-white rounded-xl shadow-[0px_4px_12px_rgba(0,0,0,0.1)] max-md:px-5 max-md:mt-10 max-md:mr-2.5 max-md:max-w-full">
-            <div className="flex gap-5 justify-between items-start max-w-full bg-black bg-opacity-0 w-[1304px]">
-              <div className="flex gap-6 self-start">
-                <h1 className="grow text-xl font-bold tracking-wide text-neutral-500">
-                  Weed Pressure Map
-                </h1>
-                <div className="text-base leading-none text-gray-600 basis-auto">
-                  Field: North-East Quarter #2B
-                </div>
-              </div>
-              <div className="flex z-10 flex-col my-auto mr-0 bg-black bg-opacity-0">
-                <button className="flex gap-4 px-3 py-3.5 w-full bg-white rounded-lg border border-solid" aria-label="Select Field">
-                  <div className="flex overflow-hidden justify-center items-center self-start min-h-[16px]">
-                    <img
-                      loading="lazy"
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/5d99ec0a10ea53c503914eb1b0c0d267970bde1995f7c0e876d1ff39ee159e12?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0"
-                      alt=""
-                      className="object-contain self-stretch my-auto w-3 aspect-[0.75]"
-                    />
-                  </div>
-                  <div className="grow shrink text-base text-gray-400 w-[238px]">
-                    Select Field
-                  </div>
-                </button>
-              </div>
-            </div>
-            
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/bfee8f55-312f-4823-9f16-91e4895dc994?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0"
-              alt="Weed pressure map visualization"
-              className="object-contain mt-6 w-full rounded-lg aspect-[2.34] max-md:max-w-full"
-            />
+  return React.createElement('div',
+    { className: "flex flex-col rounded-xl" },
+    [
+      React.createElement('div',
+        {
+          key: "main-container",
+          className: "flex flex-col px-5 py-5 w-full bg-white rounded-xl max-md:pr-5 max-md:max-w-full"
+        },
+        [
+          // Header with Field Selector
+          React.createElement('div',
+            {
+              key: "header",
+              className: "flex justify-between items-center"
+            },
+            [
+              React.createElement('div',
+                {
+                  key: "title-container",
+                  className: "flex flex-col gap-2"
+                },
+                [
+                  React.createElement('div',
+                    {
+                      key: "title",
+                      className: "text-xl font-bold tracking-wide text-neutral-500"
+                    },
+                    "Weed Pressure Map"
+                  ),
+                  React.createElement('div',
+                    {
+                      key: "field-name",
+                      className: "text-base text-gray-600"
+                    },
+                    "Field: #2B Zimmerman"
+                  )
+                ]
+              ),
+              React.createElement(FieldSelector, { key: "field-selector" })
+            ]
+          ),
 
-            <div className="flex flex-col items-start py-3 pr-20 pl-3 mt-6 ml-7 text-lg leading-none text-black bg-white rounded-lg shadow-[0px_1px_3px_rgba(0,0,0,0.05)] max-md:pr-5 max-md:max-w-full">
-              {legendItems.map((item, index) => (
-                <LegendItem key={index} {...item} />
-              ))}
-            </div>
+          // Pressure Map Image
+          React.createElement('div',
+            {
+              key: "map-container",
+              className: "flex overflow-hidden flex-col mt-5 text-xs font-bold text-white bg-white rounded-xl max-md:mr-2 max-md:max-w-full"
+            },
+            React.createElement('div',
+              {
+                key: "map-wrapper",
+                className: "flex relative flex-col items-end pr-2.5 pb-2 pl-20 w-full min-h-[688px] pt-[634px] max-md:pt-24 max-md:pl-5 max-md:max-w-full"
+              },
+              [
+                React.createElement('img',
+                  {
+                    key: "map-image",
+                    loading: "lazy",
+                    src: "https://cdn.builder.io/api/v1/image/assets/a8eb05b1cab740ac8ba52685a6faf2c4/90fa025ac8cdd0932f994e9e65933aeb377433bacfbfcc5323471ae17b1fb408?apiKey=a8eb05b1cab740ac8ba52685a6faf2c4&",
+                    className: "object-cover absolute inset-0 size-full",
+                    alt: "Weed pressure map"
+                  }
+                ),
+                React.createElement('div',
+                  {
+                    key: "scale-bar",
+                    className: "flex relative shrink-0 max-w-full h-3 w-[350px]"
+                  }
+                ),
+                React.createElement('div',
+                  {
+                    key: "scale-labels",
+                    className: "flex relative gap-10 max-w-full w-[351px]"
+                  },
+                  React.createElement('div',
+                    {
+                      key: "scale-numbers",
+                      className: "flex flex-auto gap-9 items-start"
+                    },
+                    [
+                      React.createElement('div', { key: "5" }, "5"),
+                      React.createElement('div', { key: "10" }, "10"),
+                      React.createElement('div',
+                        {
+                          key: "30-container",
+                          className: "flex flex-col self-stretch"
+                        },
+                        [
+                          React.createElement('div',
+                            {
+                              key: "30",
+                              className: "self-start max-md:ml-2.5"
+                            },
+                            "30"
+                          ),
+                          React.createElement('div',
+                            { key: "unit", className: "mt-2" },
+                            "Weeds / ㎡"
+                          )
+                        ]
+                      ),
+                      React.createElement('div', { key: "80" }, "80"),
+                      React.createElement('div', { key: "300" }, "300")
+                    ]
+                  )
+                )
+              ]
+            )
+          ),
 
-            <div className="flex gap-5 self-end mt-16 text-base text-center whitespace-nowrap max-md:mt-10">
-              <button className="px-14 pt-3 pb-5 text-white rounded-lg bg-neutral-500 max-md:px-5">
-                Filter
-              </button>
-              <button className="px-16 py-4 rounded-lg border border-emerald-200 border-solid bg-black bg-opacity-0 text-neutral-500 max-md:px-5">
-                Export
-              </button>
-            </div>
-          </main>
+          // Legend and Action Buttons
+          React.createElement('div',
+            {
+              key: "legend-actions",
+              className: "flex justify-between items-end mt-1.5 max-md:max-w-full"
+            },
+            [
+              React.createElement(WeedPressureLegend, { key: "legend" }),
+              React.createElement('div',
+                {
+                  key: "action-buttons",
+                  className: "flex gap-4 ml-4"
+                },
+                [
+                  React.createElement('button',
+                    {
+                      key: "filter-button",
+                      className: "px-8 py-3 text-base text-white rounded-lg bg-neutral-500"
+                    },
+                    "Filter"
+                  ),
+                  React.createElement('button',
+                    {
+                      key: "export-button",
+                      className: "px-8 py-3 text-base rounded-lg border border-emerald-200 border-solid text-neutral-500"
+                    },
+                    "Export"
+                  )
+                ]
+              )
+            ]
+          ),
 
-          <section className="flex flex-col px-9 pt-8 pb-5 mt-14 mr-9 ml-9 bg-white rounded-xl shadow-[0px_4px_12px_rgba(0,0,0,0.1)] max-md:px-5 max-md:mt-10 max-md:mr-2.5 max-md:max-w-full">
-            <div className="flex flex-wrap gap-5 justify-between w-full max-md:mr-1.5 max-md:max-w-full">
-              <h2 className="my-auto text-xl font-bold tracking-wide text-neutral-500">
-                Found Weed Types
-              </h2>
-              <div className="flex gap-10">
-                <img
-                  loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/837fb451949c30c43b742a021d7d7324e70bead1e87459406b85c38508c1a394?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0"
-                  alt="Filter option"
-                  className="object-contain shrink-0 w-11 aspect-[1.29]"
-                />
-                <img
-                  loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/4dac6215118e38657742adbf0eea11f51039eea157a37751c9dde95d3cab8b33?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0"
-                  alt="Settings"
-                  className="object-contain shrink-0 aspect-square w-[34px]"
-                />
-              </div>
-            </div>
-            
-            <div className="px-1.5 pt-0.5 pb-3 mt-4 ml-5 bg-black bg-opacity-0 max-md:max-w-full">
-              <div className="flex gap-5 max-md:flex-col">
-                {weedTypes.map((weed, index) => (
-                  <WeedTypeCard key={index} {...weed} />
-                ))}
-              </div>
-            </div>
-
-            <div className="flex flex-wrap gap-5 justify-between items-start mt-1.5 ml-8 w-full max-w-[1318px] max-md:mr-1.5 max-md:max-w-full">
-              <div className="flex gap-2.5 text-xs font-semibold leading-none whitespace-nowrap text-neutral-800">
-                <img
-                  loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/cce574c26a188da97e31406bd02b92f31d8196fecd57ed13ef9c17695d1869d8?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0"
-                  alt="Weed indicator"
-                  className="object-contain shrink-0 self-start w-7 aspect-[1.75]"
-                />
-                <div>Weed</div>
-                <div className="flex gap-2">
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/098a92f72029e7cf9ccf8d7786ddef60fb9e8b737d700179ed311417e6fdcdc8?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0"
-                    alt="Crop indicator"
-                    className="object-contain shrink-0 self-start w-7 aspect-[1.75]"
-                  />
-                  <div>Crop</div>
-                </div>
-              </div>
-              <button className="px-3.5 py-4 mt-4 text-base text-center text-white rounded-lg bg-neutral-500">
-                Generate Report
-              </button>
-            </div>
-          </section>
-        </div>
-      </div>
-    </div>
+          // Weed Type Section
+          React.createElement('section',
+            {
+              key: "weed-type-section",
+              className: "flex flex-col mt-8 w-full bg-white rounded-xl"
+            },
+            [
+              React.createElement('div',
+                {
+                  key: "section-header",
+                  className: "px-8 pt-8 pb-6"
+                },
+                React.createElement('h2',
+                  {
+                    className: "text-xl font-bold tracking-wide text-neutral-500"
+                  },
+                  "Found Weed Types"
+                )
+              ),
+              React.createElement('div',
+                {
+                  key: "weed-cards-container",
+                  className: "px-8 pb-8"
+                },
+                React.createElement('div',
+                  {
+                    key: "weed-cards-grid",
+                    className: "flex gap-6"
+                  },
+                  weedTypes.map((weed, index) => 
+                    React.createElement(WeedTypeCard, {
+                      key: index,
+                      ...weed,
+                      isLast: index === weedTypes.length - 1
+                    })
+                  )
+                )
+              )
+            ]
+          )
+        ]
+      )
+    ]
   );
 };

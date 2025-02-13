@@ -1,3 +1,19 @@
+export interface StatusCardProps {
+  title: string;
+  value: string;
+  description: string;
+  imageSrc: string;
+  color: string;
+}
+
+export interface EnvironmentalDataProps {
+  fieldName: string;
+}
+
+export interface CropMonitorStatusProps {
+  fieldName: string;
+}
+
 export interface MetricCardProps {
     title: string;
     value: string;

@@ -18,7 +18,7 @@ export const SidebarItem: React.FC<SidebarItemProps> = ({ icon, text, path }) =>
     <Link href={path}>
       <div className={`flex gap-4 items-center px-4 py-2 rounded-lg cursor-pointer transition-colors
         ${isActive ? 'bg-[#2a9688ff]' : 'hover:bg-gray-300'}`}>
-        <img 
+        < img 
           loading="lazy" 
           src={icon} 
           alt={`${text} icon`}

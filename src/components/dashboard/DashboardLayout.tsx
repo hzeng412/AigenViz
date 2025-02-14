@@ -7,7 +7,8 @@ import { SearchBar } from "./SearchBar";
 export const DashboardLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const sidebarItems = [
     {
-      icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/d6f777c6b0b69916f2b94afb38cfdf0a9703cbd1bd351aae120acb7abfc4b96b?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
+      icon: "/src/images/home.png",
+      // icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/d6f777c6b0b69916f2b94afb38cfdf0a9703cbd1bd351aae120acb7abfc4b96b?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
       text: "Home",
       path: "/",
     },

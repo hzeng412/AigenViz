@@ -28,7 +28,6 @@ export const FieldList: React.FC = () => {
   return React.createElement('div',
     { className: "w-full max-w-[1200px] mx-auto p-4" },
     React.createElement(FieldInfoCard, {
-      imageUrl: "https://cdn.builder.io/api/v1/image/assets/TEMP/36b00b944cd2093c5e1a37a0dbe16c7eb393f07b93a0cc6099d4d25e71e4a7ab",
       fieldInfo: fieldData
     })
   );

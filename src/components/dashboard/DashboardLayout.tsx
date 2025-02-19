@@ -53,13 +53,14 @@ export const DashboardLayout: React.FC<{ children: React.ReactNode }> = ({ child
             </div>
           </div>
           <div className="flex gap-px self-start">
-
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/96f544cf09ff8a4c6ff0a464f3a74861da49038e0729c0ff1901b10609b23e8b?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0"
-              alt="User profile"
-              className="object-contain shrink-0 w-11 rounded-sm aspect-square"
-            />
+            <Link href="/settings">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/96f544cf09ff8a4c6ff0a464f3a74861da49038e0729c0ff1901b10609b23e8b?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0"
+                alt="User profile"
+                className="object-contain shrink-0 w-11 rounded-sm aspect-square cursor-pointer"
+              />
+            </Link>
           </div>
         </div>
       </header>

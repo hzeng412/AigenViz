@@ -1,4 +1,4 @@
-(globalThis.TURBOPACK = globalThis.TURBOPACK || []).push(["static/chunks/_01af75._.js", {
+(globalThis.TURBOPACK = globalThis.TURBOPACK || []).push(["static/chunks/_650082._.js", {
 
 "[project]/src/components/dashboard/SidebarItem.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
@@ -273,606 +273,692 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_refresh__.registerExports(module, globalThis.$RefreshHelpers$);
 }
 }}),
-"[project]/src/components/insights/TimelineProgress.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
+"[project]/src/components/insights/InsightsHeader.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, k: __turbopack_refresh__, m: module, z: __turbopack_require_stub__ } = __turbopack_context__;
 {
 __turbopack_esm__({
-    "TimelineProgress": (()=>TimelineProgress)
+    "InsightsHeader": (()=>InsightsHeader)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+"use client";
 ;
-const TimelineProgress = ({ items })=>{
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "flex flex-col py-7 pr-4 pl-2 bg-white rounded-xl shadow-[0px_1px_2px_rgba(0,0,0,0.05)] max-md:max-w-full",
+const InsightsHeader = ({ fieldName })=>{
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
+        className: "flex flex-wrap gap-5 justify-between px-7 py-6 w-full bg-white rounded-lg max-md:px-5 max-md:max-w-full",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "py-1.5 max-w-full text-xl font-bold bg-black bg-opacity-0 text-neutral-500 w-[416px] max-md:pr-5 max-md:ml-2",
-                children: "Sugar Beet Progress Timeline"
-            }, void 0, false, {
-                fileName: "[project]/src/components/insights/TimelineProgress.tsx",
-                lineNumber: 11,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex flex-col mt-4 leading-none bg-black bg-opacity-0 max-md:max-w-full",
-                children: items.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex flex-col items-start pr-20 pb-6 w-full bg-black bg-opacity-0 max-md:pr-5 max-md:max-w-full",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex gap-6 text-base font-semibold text-black whitespace-nowrap",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: `flex shrink-0 w-4 h-4 ${item.color} rounded-full`
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/insights/TimelineProgress.tsx",
-                                        lineNumber: 18,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "my-auto",
-                                        children: item.status
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/insights/TimelineProgress.tsx",
-                                        lineNumber: 19,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/components/insights/TimelineProgress.tsx",
-                                lineNumber: 17,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "mt-2.5 ml-10 text-sm text-gray-600 max-md:ml-2.5",
-                                children: item.date
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/insights/TimelineProgress.tsx",
-                                lineNumber: 21,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, index, true, {
-                        fileName: "[project]/src/components/insights/TimelineProgress.tsx",
-                        lineNumber: 16,
-                        columnNumber: 11
-                    }, this))
-            }, void 0, false, {
-                fileName: "[project]/src/components/insights/TimelineProgress.tsx",
-                lineNumber: 14,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "[project]/src/components/insights/TimelineProgress.tsx",
-        lineNumber: 10,
-        columnNumber: 5
-    }, this);
-};
-_c = TimelineProgress;
-var _c;
-__turbopack_refresh__.register(_c, "TimelineProgress");
-if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
-    __turbopack_refresh__.registerExports(module, globalThis.$RefreshHelpers$);
-}
-}}),
-"[project]/src/components/insights/PressureIndicators.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
-"use strict";
-
-var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, k: __turbopack_refresh__, m: module, z: __turbopack_require_stub__ } = __turbopack_context__;
-{
-__turbopack_esm__({
-    "PressureIndicators": (()=>PressureIndicators)
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-;
-const PressureIndicators = ({ indicators })=>{
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "flex flex-col items-start pt-7 pr-7 pb-4 pl-2.5 mt-6 w-full text-lg leading-4 text-black rounded-xl bg-stone-50 shadow-[0px_1px_2px_rgba(0,0,0,0.05)] max-md:pr-5 max-md:max-w-full",
-        children: indicators.map((indicator, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex gap-3 mt-5 first:mt-0",
+                className: "flex gap-8 my-auto",
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: `flex shrink-0 self-start ${indicator.color} h-[17px] rounded-[14415px] w-[17px]`
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                        className: "grow text-xl font-bold tracking-wide text-neutral-500",
+                        children: "Actionable Insights"
                     }, void 0, false, {
-                        fileName: "[project]/src/components/insights/PressureIndicators.tsx",
-                        lineNumber: 13,
-                        columnNumber: 11
+                        fileName: "[project]/src/components/insights/InsightsHeader.tsx",
+                        lineNumber: 15,
+                        columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex-auto",
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "my-auto text-base leading-none text-gray-600 basis-auto",
                         children: [
-                            indicator.title,
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                fileName: "[project]/src/components/insights/PressureIndicators.tsx",
-                                lineNumber: 16,
-                                columnNumber: 13
-                            }, this),
-                            indicator.description
+                            "Field: ",
+                            fieldName
                         ]
                     }, void 0, true, {
-                        fileName: "[project]/src/components/insights/PressureIndicators.tsx",
-                        lineNumber: 14,
-                        columnNumber: 11
+                        fileName: "[project]/src/components/insights/InsightsHeader.tsx",
+                        lineNumber: 18,
+                        columnNumber: 9
                     }, this)
                 ]
-            }, index, true, {
-                fileName: "[project]/src/components/insights/PressureIndicators.tsx",
-                lineNumber: 12,
-                columnNumber: 9
-            }, this))
-    }, void 0, false, {
-        fileName: "[project]/src/components/insights/PressureIndicators.tsx",
-        lineNumber: 10,
-        columnNumber: 5
-    }, this);
-};
-_c = PressureIndicators;
-var _c;
-__turbopack_refresh__.register(_c, "PressureIndicators");
-if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
-    __turbopack_refresh__.registerExports(module, globalThis.$RefreshHelpers$);
-}
-}}),
-"[project]/src/components/insights/ImageGallery.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
-"use strict";
-
-var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, k: __turbopack_refresh__, m: module, z: __turbopack_require_stub__ } = __turbopack_context__;
-{
-__turbopack_esm__({
-    "ImageGallery": (()=>ImageGallery)
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-;
-const ImageGallery = ({ images })=>{
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "flex flex-col p-4 mt-5 w-full bg-white rounded-xl shadow-[0px_1px_2px_rgba(0,0,0,0.05)] max-md:mr-0.5 max-md:max-w-full",
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "py-1.5 text-xl font-bold bg-black bg-opacity-0 text-neutral-500 max-md:pr-5 max-md:max-w-full",
-                children: "Crop Image Gallery"
-            }, void 0, false, {
-                fileName: "[project]/src/components/insights/ImageGallery.tsx",
-                lineNumber: 11,
+            }, void 0, true, {
+                fileName: "[project]/src/components/insights/InsightsHeader.tsx",
+                lineNumber: 14,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex flex-wrap gap-4 mt-4 text-xs text-white bg-black bg-opacity-0",
-                children: images.map((image, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex flex-col flex-1 bg-black bg-opacity-0",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex relative flex-col items-start px-2 pt-24 pb-2 rounded-lg aspect-[1.664] w-[213px] max-md:pr-5",
+                className: "flex gap-4",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        className: "px-5 py-3.5 text-base font-light text-center text-white rounded-lg border border-solid bg-neutral-500 border-neutral-500 max-md:px-5",
+                        children: "Sugar Beets"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/insights/InsightsHeader.tsx",
+                        lineNumber: 23,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "grow shrink-0 basis-0 bg-black bg-opacity-0 w-fit",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            className: "flex gap-4 px-3 py-3.5 w-full bg-white rounded-lg border border-solid",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                    loading: "lazy",
-                                    src: image.src,
-                                    alt: image.alt,
-                                    className: "object-cover absolute inset-0 size-full"
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "flex overflow-hidden justify-center items-center self-start min-h-4",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                        loading: "lazy",
+                                        src: "https://cdn.builder.io/api/v1/image/assets/TEMP/47452267548999933b15ae670241b89f8243139eeba2e336dc070811cd1a47f7",
+                                        className: "object-contain self-stretch my-auto w-3 aspect-[0.75]",
+                                        alt: "Select field icon"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/insights/InsightsHeader.tsx",
+                                        lineNumber: 29,
+                                        columnNumber: 15
+                                    }, this)
                                 }, void 0, false, {
-                                    fileName: "[project]/src/components/insights/ImageGallery.tsx",
-                                    lineNumber: 18,
-                                    columnNumber: 15
+                                    fileName: "[project]/src/components/insights/InsightsHeader.tsx",
+                                    lineNumber: 28,
+                                    columnNumber: 13
                                 }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "relative px-2 py-1.5 rounded bg-black bg-opacity-50",
-                                    children: image.date
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "flex-auto text-base text-gray-400 w-[253px]",
+                                    children: "Select Field"
                                 }, void 0, false, {
-                                    fileName: "[project]/src/components/insights/ImageGallery.tsx",
-                                    lineNumber: 24,
-                                    columnNumber: 15
+                                    fileName: "[project]/src/components/insights/InsightsHeader.tsx",
+                                    lineNumber: 36,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
-                            fileName: "[project]/src/components/insights/ImageGallery.tsx",
-                            lineNumber: 17,
-                            columnNumber: 13
+                            fileName: "[project]/src/components/insights/InsightsHeader.tsx",
+                            lineNumber: 27,
+                            columnNumber: 11
                         }, this)
-                    }, index, false, {
-                        fileName: "[project]/src/components/insights/ImageGallery.tsx",
-                        lineNumber: 16,
-                        columnNumber: 11
-                    }, this))
-            }, void 0, false, {
-                fileName: "[project]/src/components/insights/ImageGallery.tsx",
-                lineNumber: 14,
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/insights/InsightsHeader.tsx",
+                        lineNumber: 26,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/components/insights/InsightsHeader.tsx",
+                lineNumber: 22,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
-        fileName: "[project]/src/components/insights/ImageGallery.tsx",
-        lineNumber: 10,
+        fileName: "[project]/src/components/insights/InsightsHeader.tsx",
+        lineNumber: 13,
         columnNumber: 5
     }, this);
 };
-_c = ImageGallery;
+_c = InsightsHeader;
 var _c;
-__turbopack_refresh__.register(_c, "ImageGallery");
+__turbopack_refresh__.register(_c, "InsightsHeader");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_refresh__.registerExports(module, globalThis.$RefreshHelpers$);
 }
 }}),
-"[project]/src/components/insights/data.ts [app-client] (ecmascript)": ((__turbopack_context__) => {
+"[project]/src/components/insights/GrowthTimeline.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, k: __turbopack_refresh__, m: module, z: __turbopack_require_stub__ } = __turbopack_context__;
 {
 __turbopack_esm__({
-    "galleryImages": (()=>galleryImages),
-    "pressureIndicators": (()=>pressureIndicators),
-    "timelineData": (()=>timelineData)
-});
-const timelineData = [
-    {
-        status: "Germination",
-        date: "May 1 - May 15, 2025",
-        color: "bg-green-500"
-    },
-    {
-        status: "Vegetative Growth",
-        date: "May 16 - June 30, 2025",
-        color: "bg-green-500"
-    },
-    {
-        status: "Reproductive Stage",
-        date: "July 1 - July 31, 2025",
-        color: "bg-yellow-500"
-    },
-    {
-        status: "Harvest",
-        date: "August 1 - August 15, 2025",
-        color: "bg-gray-300"
-    }
-];
-const pressureIndicators = [
-    {
-        color: "bg-red-500",
-        title: "High Pressure → Stressed Crop Zones:",
-        description: "Critical areas requiring immediate intervention."
-    },
-    {
-        color: "bg-yellow-400",
-        title: "Moderate Pressure → Developing Growth:",
-        description: "Suggests areas that may need attention."
-    },
-    {
-        color: "bg-green-500",
-        title: "Low Pressure → Healthy Crop Growth:",
-        description: "Indicates optimal crop conditions"
-    }
-];
-const galleryImages = [
-    {
-        src: "https://cdn.builder.io/api/v1/image/assets/TEMP/bea74d98a052a0a94a1dd687e8c4d9ab3224188bc96c41b32ae1c1516882947c?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
-        date: "May 15, 2025",
-        alt: "Crop progress image from May 15"
-    },
-    {
-        src: "https://cdn.builder.io/api/v1/image/assets/TEMP/7a2b091acc628b68e74d7f695796826d52af9304251f9d91354b995403277437?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
-        date: "June 1, 2025",
-        alt: "Crop progress image from June 1"
-    },
-    {
-        src: "https://cdn.builder.io/api/v1/image/assets/TEMP/ac6d6e2085ddee7a329a0db4c06f9d8d9e40e2f73097546456bc6e1a3a811750?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
-        date: "June 15, 2025",
-        alt: "Crop progress image from June 15"
-    },
-    {
-        src: "https://cdn.builder.io/api/v1/image/assets/TEMP/cb16c2a697f5819c61846755e61f96c0fcc1b2d71c522929e74068f8a8d61ca0?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
-        date: "July 1, 2025",
-        alt: "Crop progress image from July 1"
-    },
-    {
-        src: "https://cdn.builder.io/api/v1/image/assets/TEMP/70636755d512bce4bbc12820a652150ad89badebb08e6b175ad43611a3977bd3?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
-        date: "July 15, 2025",
-        alt: "Crop progress image from July 15"
-    },
-    {
-        src: "https://cdn.builder.io/api/v1/image/assets/TEMP/c9feafab6cd246730ddf4a2c3c5078344ab5d4acdf16101c2e57850a827d133d?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
-        date: "August 1, 2025",
-        alt: "Crop progress image from August 1"
-    }
-];
-if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
-    __turbopack_refresh__.registerExports(module, globalThis.$RefreshHelpers$);
-}
-}}),
-"[project]/src/components/insights/CropAnalytics.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
-"use strict";
-
-var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, k: __turbopack_refresh__, m: module, z: __turbopack_require_stub__ } = __turbopack_context__;
-{
-__turbopack_esm__({
-    "CropAnalytics": (()=>CropAnalytics)
+    "GrowthTimeline": (()=>GrowthTimeline)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$insights$2f$TimelineProgress$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/insights/TimelineProgress.tsx [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$insights$2f$PressureIndicators$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/insights/PressureIndicators.tsx [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$insights$2f$ImageGallery$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/insights/ImageGallery.tsx [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$insights$2f$data$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/insights/data.ts [app-client] (ecmascript)");
 ;
-;
-;
-;
-;
-const CropAnalytics = ()=>{
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "flex overflow-hidden flex-col bg-white rounded-lg border-2 border-gray-300 border-solid",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex overflow-hidden flex-col w-full bg-white rounded-lg border-2 border-gray-300 border-solid max-md:max-w-full",
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex flex-col w-full bg-black bg-opacity-0 max-md:max-w-full",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex flex-col px-6 py-6 w-full bg-gray-50 max-md:px-5 max-md:max-w-full",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex flex-col justify-center p-4 w-full bg-white rounded-xl shadow-[0px_1px_2px_rgba(0,0,0,0.05)] max-md:mr-0.5 max-md:max-w-full",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex flex-wrap gap-5 justify-between py-px w-full bg-black bg-opacity-0 max-md:max-w-full",
+const GrowthTimeline = ()=>{
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        className: "flex flex-col py-9 pr-20 pl-7 mt-1 w-full bg-white rounded-lg max-md:px-5 max-md:max-w-full",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex flex-col w-full max-w-[1333px] max-md:max-w-full",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex flex-wrap gap-5 justify-between w-full max-md:max-w-full",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex gap-10 text-neutral-500 max-md:max-w-full",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "my-auto text-xl font-bold tracking-wide text-neutral-500",
-                                        children: "Actionable Insights"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-                                        lineNumber: 15,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex gap-3 text-base text-center whitespace-nowrap bg-black bg-opacity-0",
+                                        className: "flex flex-col",
                                         children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                className: "flex gap-2.5 px-4 py-3 text-black bg-gray-100 rounded-lg",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                        loading: "lazy",
-                                                        src: "https://cdn.builder.io/api/v1/image/assets/TEMP/073edbd52874cf9241f585f616082c6cd85ebf19feefd47e7d02421a9e6eed25?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
-                                                        alt: "",
-                                                        className: "object-contain shrink-0 self-start w-4 aspect-square"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-                                                        lineNumber: 20,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        children: "Export"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-                                                        lineNumber: 26,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-                                                lineNumber: 19,
-                                                columnNumber: 19
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                                className: "text-xl font-bold tracking-wide",
+                                                children: "Sugar Beet Progress Timeline"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/insights/GrowthTimeline.tsx",
+                                                lineNumber: 8,
+                                                columnNumber: 15
                                             }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                className: "flex gap-2.5 px-4 py-3 text-white rounded-lg bg-neutral-500",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                        loading: "lazy",
-                                                        src: "https://cdn.builder.io/api/v1/image/assets/TEMP/a2156bc7c9f4b07d4809850692ba383083fbf7b62ba7a094e296318e3ff26837?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
-                                                        alt: "",
-                                                        className: "object-contain shrink-0 self-start w-4 aspect-square"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-                                                        lineNumber: 29,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        children: "Filters"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-                                                        lineNumber: 35,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-                                                lineNumber: 28,
-                                                columnNumber: 19
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("time", {
+                                                className: "self-center mt-10 ml-3 text-base font-semibold leading-none text-center",
+                                                children: "01 May"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/insights/GrowthTimeline.tsx",
+                                                lineNumber: 11,
+                                                columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
-                                        fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-                                        lineNumber: 18,
-                                        columnNumber: 17
+                                        fileName: "[project]/src/components/insights/GrowthTimeline.tsx",
+                                        lineNumber: 7,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("time", {
+                                        className: "self-end mt-16 text-base font-semibold leading-none text-center max-md:mt-10",
+                                        children: "16 May"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/insights/GrowthTimeline.tsx",
+                                        lineNumber: 15,
+                                        columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
-                                fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-                                lineNumber: 14,
-                                columnNumber: 15
+                                fileName: "[project]/src/components/insights/GrowthTimeline.tsx",
+                                lineNumber: 6,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex gap-10 self-end mt-16 text-base font-semibold leading-none text-center text-black max-md:mt-10 max-md:max-w-full",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("time", {
+                                        className: "text-neutral-500",
+                                        children: "01 July"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/insights/GrowthTimeline.tsx",
+                                        lineNumber: 20,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("time", {
+                                        children: "01 August"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/insights/GrowthTimeline.tsx",
+                                        lineNumber: 21,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("time", {
+                                        children: "15 August"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/insights/GrowthTimeline.tsx",
+                                        lineNumber: 22,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/insights/GrowthTimeline.tsx",
+                                lineNumber: 19,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/components/insights/GrowthTimeline.tsx",
+                        lineNumber: 5,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                        loading: "lazy",
+                        src: "https://cdn.builder.io/api/v1/image/assets/TEMP/7faa3eaaddc13402b21ae5ba33bba4f99ec098c06822b933b6fea8ec4b636f4b",
+                        className: "object-contain self-end mt-4 mr-6 rounded-none aspect-[24.39] max-w-[1174px] w-[1174px] max-md:mr-2.5 max-md:max-w-full",
+                        alt: "Growth timeline visualization"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/insights/GrowthTimeline.tsx",
+                        lineNumber: 25,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/components/insights/GrowthTimeline.tsx",
+                lineNumber: 4,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "self-end mt-3.5 mr-72 text-sm font-semibold leading-none text-center text-black max-md:mr-2.5",
+                children: "Harvest"
+            }, void 0, false, {
+                fileName: "[project]/src/components/insights/GrowthTimeline.tsx",
+                lineNumber: 32,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex z-10 flex-col self-center -mt-2.5 w-full text-sm font-semibold leading-none text-center text-black max-w-[1224px] max-md:max-w-full",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "self-start",
+                        children: "Germination"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/insights/GrowthTimeline.tsx",
+                        lineNumber: 36,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "z-10 self-end mt-0",
+                        children: "End of Harvest"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/insights/GrowthTimeline.tsx",
+                        lineNumber: 37,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "self-start mt-0 ml-64 max-md:ml-2.5",
+                        children: "Vegetative Growth"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/insights/GrowthTimeline.tsx",
+                        lineNumber: 38,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "z-10 self-center -mt-3.5",
+                        children: "Reproductive Stage"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/insights/GrowthTimeline.tsx",
+                        lineNumber: 39,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/components/insights/GrowthTimeline.tsx",
+                lineNumber: 35,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/components/insights/GrowthTimeline.tsx",
+        lineNumber: 3,
+        columnNumber: 5
+    }, this);
+};
+_c = GrowthTimeline;
+var _c;
+__turbopack_refresh__.register(_c, "GrowthTimeline");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_refresh__.registerExports(module, globalThis.$RefreshHelpers$);
+}
+}}),
+"[project]/src/components/insights/GrowthStageCard.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, k: __turbopack_refresh__, m: module, z: __turbopack_require_stub__ } = __turbopack_context__;
+{
+__turbopack_esm__({
+    "GrowthStageCard": (()=>GrowthStageCard)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+;
+const GrowthStageCard = ({ imageUrl, stage, date })=>{
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
+        className: "overflow-hidden py-1 leading-none bg-white rounded-xl border border-solid max-md:max-w-full",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                loading: "lazy",
+                src: imageUrl,
+                className: "object-contain w-full aspect-[1.69] max-md:max-w-full",
+                alt: `${stage} visualization`
+            }, void 0, false, {
+                fileName: "[project]/src/components/insights/GrowthStageCard.tsx",
+                lineNumber: 14,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex flex-col items-start pr-20 pb-4 pl-5 mt-3.5 bg-black bg-opacity-0 max-md:pr-5 max-md:max-w-full",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                        className: "text-xl font-semibold text-neutral-800",
+                        children: stage
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/insights/GrowthStageCard.tsx",
+                        lineNumber: 21,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("time", {
+                        className: "mt-3 text-base text-neutral-600",
+                        children: date
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/insights/GrowthStageCard.tsx",
+                        lineNumber: 22,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/components/insights/GrowthStageCard.tsx",
+                lineNumber: 20,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/components/insights/GrowthStageCard.tsx",
+        lineNumber: 13,
+        columnNumber: 5
+    }, this);
+};
+_c = GrowthStageCard;
+var _c;
+__turbopack_refresh__.register(_c, "GrowthStageCard");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_refresh__.registerExports(module, globalThis.$RefreshHelpers$);
+}
+}}),
+"[project]/src/components/insights/CropGallery.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, k: __turbopack_refresh__, m: module, z: __turbopack_require_stub__ } = __turbopack_context__;
+{
+__turbopack_esm__({
+    "CropGallery": (()=>CropGallery)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$insights$2f$GrowthStageCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/insights/GrowthStageCard.tsx [app-client] (ecmascript)");
+"use client";
+;
+;
+const CropGallery = ()=>{
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        className: "flex flex-col px-8 pt-7 pb-24 w-full bg-white rounded-xl max-md:px-5 max-md:max-w-full",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex gap-7 self-start",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                        className: "my-auto text-xl font-bold tracking-wide basis-auto text-neutral-500",
+                        children: "Crop Growth Gallery"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/insights/CropGallery.tsx",
+                        lineNumber: 10,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        className: "p-3.5 text-base font-light text-center text-gray-600 rounded-lg border border-solid",
+                        children: "History Album"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/insights/CropGallery.tsx",
+                        lineNumber: 13,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/components/insights/CropGallery.tsx",
+                lineNumber: 9,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex flex-wrap gap-2.5 mt-4 max-md:max-w-full",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$insights$2f$GrowthStageCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["GrowthStageCard"], {
+                        imageUrl: "https://cdn.builder.io/api/v1/image/assets/TEMP/198c28cc9923e70a2ba37875978dfdda861066e58821f3d4b27f48ce690166f3",
+                        stage: "Growth Stage 1",
+                        date: "05 May 2025"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/insights/CropGallery.tsx",
+                        lineNumber: 18,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$insights$2f$GrowthStageCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["GrowthStageCard"], {
+                        imageUrl: "https://cdn.builder.io/api/v1/image/assets/TEMP/c713b0a836944e66337a66f037069ed553f6d9f2753b0fe03f5684d8e2ff6e19",
+                        stage: "Growth Stage 2",
+                        date: "16 May 2025"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/insights/CropGallery.tsx",
+                        lineNumber: 23,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$insights$2f$GrowthStageCard$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["GrowthStageCard"], {
+                        imageUrl: "https://cdn.builder.io/api/v1/image/assets/TEMP/57bc358cd5242c0dc430cad2056b313935d0280a62b50036f399e88954740586",
+                        stage: "Growth Stage 3",
+                        date: "01 July 2025"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/insights/CropGallery.tsx",
+                        lineNumber: 28,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        className: "flex flex-col justify-center items-end px-1.5 py-40 rounded-lg max-md:hidden max-md:py-24",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                            loading: "lazy",
+                            src: "https://cdn.builder.io/api/v1/image/assets/TEMP/89c2ccc48f3c770b27f2b30b24aee40ef30dbfeed10baba46c145db26027d41e",
+                            className: "object-contain w-6 aspect-square max-md:-mr-2",
+                            alt: "Next"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/insights/CropGallery.tsx",
+                            lineNumber: 34,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/insights/CropGallery.tsx",
+                        lineNumber: 33,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/components/insights/CropGallery.tsx",
+                lineNumber: 17,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/components/insights/CropGallery.tsx",
+        lineNumber: 8,
+        columnNumber: 5
+    }, this);
+};
+_c = CropGallery;
+var _c;
+__turbopack_refresh__.register(_c, "CropGallery");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_refresh__.registerExports(module, globalThis.$RefreshHelpers$);
+}
+}}),
+"[project]/src/components/insights/CropMetrics.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, k: __turbopack_refresh__, m: module, z: __turbopack_require_stub__ } = __turbopack_context__;
+{
+__turbopack_esm__({
+    "CropMetrics": (()=>CropMetrics)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+"use client";
+;
+const CropMetrics = ()=>{
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        className: "px-7 pt-8 pb-24 w-full bg-white rounded-xl max-md:px-5 max-md:max-w-full",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex gap-10 max-w-full bg-black bg-opacity-0 w-[1304px]",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                        className: "grow shrink text-xl font-bold tracking-wide text-neutral-500 w-[158px]",
+                        children: "Crop Height Trends"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/insights/CropMetrics.tsx",
+                        lineNumber: 9,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex z-10 flex-wrap gap-5 my-auto mr-0 max-md:max-w-full",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                className: "flex gap-2 px-3.5 py-4 text-base text-center text-black bg-white rounded-lg border border-solid",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                        loading: "lazy",
+                                        src: "https://cdn.builder.io/api/v1/image/assets/TEMP/b041a8bb913e00d43acdee393ec024026049b85bdd430eb07701002ff32f46ae",
+                                        className: "object-contain shrink-0 self-start aspect-[3.8] w-[38px]",
+                                        alt: "Field icon"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/insights/CropMetrics.tsx",
+                                        lineNumber: 14,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        children: "Field #2B"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/insights/CropMetrics.tsx",
+                                        lineNumber: 20,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/insights/CropMetrics.tsx",
+                                lineNumber: 13,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                className: "px-16 py-4 text-base text-center text-black bg-white rounded-lg border border-solid max-md:pl-5",
+                                children: "Field #1A"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/insights/CropMetrics.tsx",
+                                lineNumber: 22,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/components/insights/CropMetrics.tsx",
+                        lineNumber: 12,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/components/insights/CropMetrics.tsx",
+                lineNumber: 8,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "mt-6 max-md:max-w-full",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "flex gap-5 max-md:flex-col",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "w-6/12 max-md:ml-0 max-md:w-full",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                loading: "lazy",
+                                src: "https://cdn.builder.io/api/v1/image/assets/TEMP/f238fff38cc5ed753a682c256c85d939a36c57aa2cc2de2361599c7b74cd5994",
+                                className: "object-contain grow w-full rounded-lg aspect-[1.04] max-md:mt-4 max-md:max-w-full",
+                                alt: "Height trends chart"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/insights/CropMetrics.tsx",
+                                lineNumber: 30,
+                                columnNumber: 13
                             }, this)
                         }, void 0, false, {
-                            fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-                            lineNumber: 13,
-                            columnNumber: 13
+                            fileName: "[project]/src/components/insights/CropMetrics.tsx",
+                            lineNumber: 29,
+                            columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex flex-col py-0.5 mt-6 w-full bg-black bg-opacity-0 max-md:max-w-full",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "max-md:mr-0.5 max-md:max-w-full",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex gap-5 max-md:flex-col",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "flex flex-col w-[67%] max-md:ml-0 max-md:w-full",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                    loading: "lazy",
-                                                    src: "https://cdn.builder.io/api/v1/image/assets/TEMP/0b501925409840c2d79f3a7dc859518d67ab95d2e11c5248579ebf4a02b9bd8b?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
-                                                    alt: "Crop analysis visualization",
-                                                    className: "object-contain grow w-full rounded-xl aspect-[1.56] shadow-[0px_1px_2px_rgba(0,0,0,0.05)] max-md:mt-6 max-md:max-w-full"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-                                                    lineNumber: 44,
-                                                    columnNumber: 21
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-                                                lineNumber: 43,
-                                                columnNumber: 19
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "flex flex-col grow mt-2 max-md:mt-8 max-md:max-w-full",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$insights$2f$TimelineProgress$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TimelineProgress"], {
-                                                            items: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$insights$2f$data$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["timelineData"]
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-                                                            lineNumber: 53,
-                                                            columnNumber: 23
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$insights$2f$PressureIndicators$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PressureIndicators"], {
-                                                            indicators: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$insights$2f$data$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["pressureIndicators"]
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-                                                            lineNumber: 54,
-                                                            columnNumber: 23
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-                                                    lineNumber: 52,
-                                                    columnNumber: 21
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-                                                lineNumber: 51,
-                                                columnNumber: 19
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-                                        lineNumber: 42,
-                                        columnNumber: 17
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-                                    lineNumber: 41,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex flex-col p-4 mt-6 w-full bg-white rounded-xl shadow-[0px_1px_2px_rgba(0,0,0,0.05)] max-md:mr-0.5 max-md:max-w-full",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "flex flex-wrap gap-5 justify-between w-full bg-black bg-opacity-0 max-md:max-w-full",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "my-auto text-xl font-bold leading-none text-neutral-500",
-                                                    children: "Crop Height Trends"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-                                                    lineNumber: 61,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "flex gap-3 text-base text-center text-black whitespace-nowrap bg-black bg-opacity-0",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                            className: "px-4 py-3.5 bg-gray-100 rounded-lg",
-                                                            children: "Weekly"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-                                                            lineNumber: 65,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                            className: "px-4 py-3.5 bg-gray-100 rounded-lg",
-                                                            children: "Monthly"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-                                                            lineNumber: 66,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                            className: "px-4 pt-2.5 pb-5 text-white rounded-lg bg-neutral-500",
-                                                            children: "Custom"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-                                                            lineNumber: 67,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-                                                    lineNumber: 64,
-                                                    columnNumber: 19
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-                                            lineNumber: 60,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                            loading: "lazy",
-                                            src: "https://cdn.builder.io/api/v1/image/assets/TEMP/8ff005da5f0eb476fa915d9834740c8cfabb768b86439a5a7571b2cafc7c6aba?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
-                                            alt: "Crop height trends graph",
-                                            className: "object-contain mt-4 w-full rounded-lg aspect-[4.52] max-md:max-w-full"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-                                            lineNumber: 70,
-                                            columnNumber: 17
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-                                    lineNumber: 59,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                    loading: "lazy",
-                                    src: "https://cdn.builder.io/api/v1/image/assets/TEMP/50f8e231-22bc-433a-ae92-750a04214f9a?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0",
-                                    alt: "Additional crop analytics visualization",
-                                    className: "object-contain mt-6 w-full aspect-[3.65] bg-black bg-opacity-0 max-md:max-w-full"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-                                    lineNumber: 77,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$insights$2f$ImageGallery$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ImageGallery"], {
-                                    images: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$insights$2f$data$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["galleryImages"]
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-                                    lineNumber: 83,
-                                    columnNumber: 15
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-                            lineNumber: 40,
-                            columnNumber: 13
+                            className: "ml-5 w-6/12 max-md:ml-0 max-md:w-full",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                loading: "lazy",
+                                src: "https://cdn.builder.io/api/v1/image/assets/TEMP/e72a280fd7801049e2d4c9f48a409d256abce2727a254b97186bdaf99e9eb3d1",
+                                className: "object-contain grow w-full rounded-lg aspect-[1.04] max-md:mt-4 max-md:max-w-full",
+                                alt: "Density trends chart"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/insights/CropMetrics.tsx",
+                                lineNumber: 38,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/insights/CropMetrics.tsx",
+                            lineNumber: 37,
+                            columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
-                    fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-                    lineNumber: 12,
-                    columnNumber: 11
+                    fileName: "[project]/src/components/insights/CropMetrics.tsx",
+                    lineNumber: 28,
+                    columnNumber: 9
                 }, this)
             }, void 0, false, {
-                fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-                lineNumber: 11,
-                columnNumber: 9
+                fileName: "[project]/src/components/insights/CropMetrics.tsx",
+                lineNumber: 27,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex flex-wrap gap-5 justify-between mt-6 w-full text-base text-center text-black max-md:max-w-full",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        className: "flex gap-2.5 px-3.5 py-3.5 rounded-lg border border-solid",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                loading: "lazy",
+                                src: "https://cdn.builder.io/api/v1/image/assets/TEMP/afd86f18eb49896eb4d604d782bbeefd4aeb17343ca3aeef856b5a9d976e6c20",
+                                className: "object-contain shrink-0 self-start w-3.5 aspect-[0.87]",
+                                alt: "Calendar icon"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/insights/CropMetrics.tsx",
+                                lineNumber: 49,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                children: "08 May 25 - 16 July 25"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/insights/CropMetrics.tsx",
+                                lineNumber: 55,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/components/insights/CropMetrics.tsx",
+                        lineNumber: 48,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex gap-4",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                className: "px-7 py-4 bg-gray-200 rounded-lg max-md:px-5",
+                                children: "Edit Metrics"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/insights/CropMetrics.tsx",
+                                lineNumber: 58,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                className: "flex gap-2.5 px-3.5 py-3.5 rounded-lg border border-solid",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                        loading: "lazy",
+                                        src: "https://cdn.builder.io/api/v1/image/assets/TEMP/9270aae754eac1ae66f901fe18bfc0c94b5692a40ee68cc73acf89a69fb20e8b",
+                                        className: "object-contain shrink-0 self-start w-3.5 aspect-[0.87]",
+                                        alt: "Calendar icon"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/insights/CropMetrics.tsx",
+                                        lineNumber: 62,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        children: "08 May 25 - 16 July 25"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/insights/CropMetrics.tsx",
+                                        lineNumber: 68,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/insights/CropMetrics.tsx",
+                                lineNumber: 61,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/components/insights/CropMetrics.tsx",
+                        lineNumber: 57,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        className: "px-7 py-4 bg-gray-200 rounded-lg max-md:px-5",
+                        children: "Edit Metrics"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/insights/CropMetrics.tsx",
+                        lineNumber: 71,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/components/insights/CropMetrics.tsx",
+                lineNumber: 47,
+                columnNumber: 7
             }, this)
-        }, void 0, false, {
-            fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-            lineNumber: 10,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "[project]/src/components/insights/CropAnalytics.tsx",
-        lineNumber: 9,
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/components/insights/CropMetrics.tsx",
+        lineNumber: 7,
         columnNumber: 5
     }, this);
 };
-_c = CropAnalytics;
+_c = CropMetrics;
 var _c;
-__turbopack_refresh__.register(_c, "CropAnalytics");
+__turbopack_refresh__.register(_c, "CropMetrics");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_refresh__.registerExports(module, globalThis.$RefreshHelpers$);
 }
@@ -882,39 +968,66 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, k: __turbopack_refresh__, m: module, z: __turbopack_require_stub__ } = __turbopack_context__;
 {
-// src/components/insights/InsightsContent.tsx
 __turbopack_esm__({
-    "InsightsContent": (()=>InsightsContent)
+    "InsightsContent": (()=>InsightsContent),
+    "default": (()=>__TURBOPACK__default__export__)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$insights$2f$CropAnalytics$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/insights/CropAnalytics.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$insights$2f$InsightsHeader$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/insights/InsightsHeader.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$insights$2f$GrowthTimeline$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/insights/GrowthTimeline.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$insights$2f$CropGallery$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/insights/CropGallery.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$insights$2f$CropMetrics$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/src/components/insights/CropMetrics.tsx [app-client] (ecmascript)");
+"use client";
+;
+;
+;
 ;
 ;
 const InsightsContent = ()=>{
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "flex flex-col mt-3.5 max-md:mt-10 max-md:max-w-full",
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
+        className: "rounded-none",
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                className: "text-2xl font-bold mb-4",
-                children: "Insights"
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$insights$2f$InsightsHeader$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["InsightsHeader"], {
+                fieldName: "#2B Zimmerman"
             }, void 0, false, {
                 fileName: "[project]/src/components/insights/InsightsContent.tsx",
-                lineNumber: 8,
+                lineNumber: 12,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$insights$2f$CropAnalytics$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CropAnalytics"], {}, void 0, false, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$insights$2f$GrowthTimeline$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["GrowthTimeline"], {}, void 0, false, {
                 fileName: "[project]/src/components/insights/InsightsContent.tsx",
-                lineNumber: 10,
+                lineNumber: 13,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                loading: "lazy",
+                src: "https://cdn.builder.io/api/v1/image/assets/TEMP/b0d274bc858a0032f537c9e681fdbd93d39c6736b175bbaa5681ead9534b2040",
+                className: "object-contain mt-1 w-full rounded-xl aspect-[1.77] max-md:max-w-full",
+                alt: "Field overview"
+            }, void 0, false, {
+                fileName: "[project]/src/components/insights/InsightsContent.tsx",
+                lineNumber: 14,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$insights$2f$CropGallery$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CropGallery"], {}, void 0, false, {
+                fileName: "[project]/src/components/insights/InsightsContent.tsx",
+                lineNumber: 20,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$insights$2f$CropMetrics$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CropMetrics"], {}, void 0, false, {
+                fileName: "[project]/src/components/insights/InsightsContent.tsx",
+                lineNumber: 21,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/insights/InsightsContent.tsx",
-        lineNumber: 7,
+        lineNumber: 11,
         columnNumber: 5
     }, this);
 };
 _c = InsightsContent;
+const __TURBOPACK__default__export__ = InsightsContent;
 var _c;
 __turbopack_refresh__.register(_c, "InsightsContent");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
@@ -2364,4 +2477,4 @@ module.exports = __turbopack_require__("[project]/node_modules/next/dist/client/
 }}),
 }]);
 
-//# sourceMappingURL=_01af75._.js.map
+//# sourceMappingURL=_650082._.js.map

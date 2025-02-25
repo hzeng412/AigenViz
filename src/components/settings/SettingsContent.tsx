@@ -1,7 +1,6 @@
 // src/components/settings/SettingsContent.tsx
 import * as React from "react";
 import { AccountSettings } from "./AccountSettings";
-import { SettingSection } from "./SettingSection";
 
 export const SettingsContent = () => {
   return (

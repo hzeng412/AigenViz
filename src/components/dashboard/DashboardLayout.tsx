@@ -2,7 +2,6 @@
 import * as React from "react";
 import Link from "next/link"; // Import the Link component
 import { SidebarItem } from "./SidebarItem";
-import { SearchBar } from "./SearchBar";
 
 export const DashboardLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const sidebarItems = [

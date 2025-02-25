@@ -80,7 +80,7 @@ export function AccountSettings() {
                       </div>
                       
                       <div className="py-1 mt-6 max-w-full font-semibold bg-black bg-opacity-0 w-[390px] max-md:pr-5">
-                        Directly contact Aigen's support team
+                        Directly contact Aigen&apos;s support team
                       </div>
                       
                       <div className="flex flex-col items-start self-stretch px-3.5 pt-3.5 pb-1 w-full leading-none rounded-lg bg-stone-50 max-md:pr-5 max-md:max-w-full">
@@ -108,7 +108,7 @@ export function AccountSettings() {
                       <div className="flex flex-col items-start self-stretch px-3.5 pt-3.5 pb-1 w-full leading-none rounded-lg bg-stone-50 max-md:pr-5 max-md:max-w-full">
                         <ContactMethod
                           icon="https://cdn.builder.io/api/v1/image/assets/TEMP/d32e26d905e805515b5e90e79aad3ccfe6c797a144e5ad21cf4f49cf2dc4b72c?placeholderIfAbsent=true&apiKey=1733fe44aec44f7491ef147a718cebc0"
-                          text="Fill out our form and we'll get back to you in 24 hours."
+                          text="Fill out our form and we&apos;ll get back to you in 24 hours."
                         />
                       </div>
                     </div>

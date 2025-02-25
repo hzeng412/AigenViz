@@ -11,9 +11,9 @@
   "dependencies": {
     "@types/mapbox-gl": "^3.4.1",
     "mapbox-gl": "^3.9.4",
-    "next": "^15.1.7",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

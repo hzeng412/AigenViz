@@ -5,7 +5,7 @@ import FieldInfoCard from "./FieldInfoCard";
 const fieldData: FieldInfo[] = [
   {
     field: "Field06",
-    section: "#1B",
+    section: "#1A",
     size: "149 acres",
     cropType: "Sugar Beets",
   },

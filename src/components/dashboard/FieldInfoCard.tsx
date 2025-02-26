@@ -26,14 +26,14 @@ export default function FieldInfoCard(props: FieldInfoCardProps) {
               React.createElement('div', 
                 { 
                   key: "field-title",
-                  className: "text-xl font-bold leading-none text-gray-600" 
+                  className: "text-xl font-bold leading-none text-gray-800" 
                 },
                 "Field:"
               ),
               React.createElement('div', 
                 { 
                   key: "field-list",
-                  className: "self-start mt-6 text-base leading-4" 
+                  className: "self-start mt-6 text-base leading-4 text-gray-800" 
                 },
                 fieldInfo.map((info, index) => 
                   React.createElement(React.Fragment, { key: `field-${index}` },
@@ -57,14 +57,14 @@ export default function FieldInfoCard(props: FieldInfoCardProps) {
               React.createElement('div',
                 {
                   key: "section-title",
-                  className: "text-xl font-bold leading-none text-gray-600"
+                  className: "text-xl font-bold leading-none text-gray-800"
                 },
                 "Section"
               ),
               React.createElement('div',
                 {
                   key: "section-list",
-                  className: "self-start mt-6 text-base leading-4"
+                  className: "self-start mt-6 text-base leading-4 text-gray-800"
                 },
                 fieldInfo.map((info, index) =>
                   React.createElement(React.Fragment, { key: `section-${index}` },
@@ -88,14 +88,14 @@ export default function FieldInfoCard(props: FieldInfoCardProps) {
               React.createElement('div',
                 {
                   key: "size-title",
-                  className: "text-xl font-bold leading-none text-gray-600"
+                  className: "text-xl font-bold leading-none text-gray-800"
                 },
                 "Size"
               ),
               React.createElement('div',
                 {
                   key: "size-list",
-                  className: "self-start mt-6 text-base leading-4"
+                  className: "self-start mt-6 text-base leading-4 text-gray-800"
                 },
                 fieldInfo.map((info, index) =>
                   React.createElement(React.Fragment, { key: `size-${index}` },
@@ -119,14 +119,14 @@ export default function FieldInfoCard(props: FieldInfoCardProps) {
               React.createElement('div',
                 {
                   key: "cropType-title",
-                  className: "text-xl font-bold leading-none text-gray-600"
+                  className: "text-xl font-bold leading-none text-gray-800"
                 },
                 "Current Crop Type"
               ),
               React.createElement('div',
                 {
                   key: "cropType-list",
-                  className: "self-start mt-6 text-base leading-4"
+                  className: "self-start mt-6 text-base leading-4 text-gray-800"
                 },
                 fieldInfo.map((info, index) =>
                   React.createElement(React.Fragment, { key: `cropType-${index}` },

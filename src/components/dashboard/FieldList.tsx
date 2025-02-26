@@ -2,25 +2,24 @@ import * as React from "react";
 import { FieldInfo } from "./types";
 import FieldInfoCard from "./FieldInfoCard";
 
-// 转换现有数据格式为新的 FieldInfo 格式
 const fieldData: FieldInfo[] = [
   {
-    field: "Zimmerman",
-    section: "#2B",
-    size: "214 acres",
-    cropType: "Sugar Beet",
+    field: "Field06",
+    section: "#1B",
+    size: "149 acres",
+    cropType: "Sugar Beets",
   },
   {
-    field: "Lindemann",
-    section: "#1A",
-    size: "184 acres",
-    cropType: "Cotton",
+    field: "Field06",
+    section: "#1B",
+    size: "152 acres",
+    cropType: "Sugar Beets",
   },
   {
-    field: "Sinimann",
-    section: "#2C",
-    size: "157 acres",
-    cropType: "Cotton",
+    field: "Field06",
+    section: "#2A",
+    size: "144 acres",
+    cropType: "Cottons",
   },
 ];
 

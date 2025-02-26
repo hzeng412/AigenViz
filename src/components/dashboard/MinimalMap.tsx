@@ -26,12 +26,19 @@ export const MinimalMap = () => {
 
     try {
       // Create a simple map with no extras, centered between your coordinates
+      // Adjust center to accommodate both fields
       console.log('Creating map instance');
+      
+      // Calculate the center point between the two fields
+      // Field 1: -96.2145001049546 to -96.20454674175502
+      // Field 2: -96.22487834356818 to -96.21496439678182
+      const centerLongitude = (-96.20454674175502 + -96.22487834356818) / 2;
+      
       map.current = new mapboxgl.Map({
         container: mapContainer.current,
         style: 'mapbox://styles/mapbox/satellite-v9',
-        center: [-96.20952342335481, 46.003369397341276], // Center between your two points
-        zoom: 14 // Zoomed in more to better see the highlighted area
+        center: [centerLongitude, 46.003369397341276], // Centered exactly between the two fields
+        zoom: 13.5 // Slightly zoomed out to see both fields
       });
 
       // Add simple error and success handlers
@@ -43,10 +50,10 @@ export const MinimalMap = () => {
       map.current.on('load', () => {
         console.log('Map loaded successfully!');
         
-        // Add the highlighted area once the map is loaded
+        // Add the original field on the right
         if (map.current) {
-          // Add a source for the field boundary
-          map.current.addSource('field-boundary', {
+          // Add a source for the first field boundary
+          map.current.addSource('field-boundary-1', {
             'type': 'geojson',
             'data': {
               'type': 'Feature',
@@ -70,11 +77,11 @@ export const MinimalMap = () => {
             }
           });
 
-          // Add a fill layer for the highlighted area
+          // Add a fill layer for the first highlighted area
           map.current.addLayer({
-            'id': 'field-highlight-fill',
+            'id': 'field-highlight-fill-1',
             'type': 'fill',
-            'source': 'field-boundary',
+            'source': 'field-boundary-1',
             'layout': {},
             'paint': {
               'fill-color': '#00FF00', // Green highlight
@@ -82,11 +89,11 @@ export const MinimalMap = () => {
             }
           });
 
-          // Add an outline layer for the highlighted area
+          // Add an outline layer for the first highlighted area
           map.current.addLayer({
-            'id': 'field-highlight-outline',
+            'id': 'field-highlight-outline-1',
             'type': 'line',
-            'source': 'field-boundary',
+            'source': 'field-boundary-1',
             'layout': {},
             'paint': {
               'line-color': '#00FF00',
@@ -94,13 +101,82 @@ export const MinimalMap = () => {
             }
           });
 
-          // Add a text label for "farm06" in the center of the field
+          // Add a text label for "#1B" in the center of the first field
           map.current.addLayer({
-            'id': 'field-label',
+            'id': 'field-label-1',
             'type': 'symbol',
-            'source': 'field-boundary',
+            'source': 'field-boundary-1',
             'layout': {
-              'text-field': 'farm06',
+              'text-field': '#1B',
+              'text-size': 14,
+              'text-anchor': 'center',
+              'text-transform': 'uppercase',
+              'text-letter-spacing': 0.05,
+              'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'],
+            },
+            'paint': {
+              'text-color': '#000000',
+              'text-halo-color': '#ffffff',
+              'text-halo-width': 2
+            }
+          });
+          
+          // Add a source for the second field boundary (to the left of the first field)
+          map.current.addSource('field-boundary-2', {
+            'type': 'geojson',
+            'data': {
+              'type': 'Feature',
+              'properties': {
+                'name': 'farm07',
+                'description': 'Farm 07'
+              },
+              'geometry': {
+                'type': 'Polygon',
+                'coordinates': [
+                  [
+                    // Create a rectangle with the same dimensions, but to the left
+                    [-96.22487834356818, 46.0068861185098],  // Top left
+                    [-96.21496439678182, 46.0068861185098], // Top right (connects to original field)
+                    [-96.21496439678182, 45.99985267617274], // Bottom right (connects to original field)
+                    [-96.22487834356818, 45.99985267617274],  // Bottom left
+                    [-96.22487834356818, 46.0068861185098]   // Close the polygon
+                  ]
+                ]
+              }
+            }
+          });
+
+          // Add a fill layer for the second highlighted area
+          map.current.addLayer({
+            'id': 'field-highlight-fill-2',
+            'type': 'fill',
+            'source': 'field-boundary-2',
+            'layout': {},
+            'paint': {
+              'fill-color': '#FFD700', // Gold highlight for differentiation
+              'fill-opacity': 0.3
+            }
+          });
+
+          // Add an outline layer for the second highlighted area
+          map.current.addLayer({
+            'id': 'field-highlight-outline-2',
+            'type': 'line',
+            'source': 'field-boundary-2',
+            'layout': {},
+            'paint': {
+              'line-color': '#FFD700',
+              'line-width': 2
+            }
+          });
+
+          // Add a text label for "#1A" in the center of the second field
+          map.current.addLayer({
+            'id': 'field-label-2',
+            'type': 'symbol',
+            'source': 'field-boundary-2',
+            'layout': {
+              'text-field': '#1A',
               'text-size': 14,
               'text-anchor': 'center',
               'text-transform': 'uppercase',
@@ -114,20 +190,36 @@ export const MinimalMap = () => {
             }
           });
 
-          // Add click handler to navigate to /weed_pressure
-          map.current.on('click', 'field-highlight-fill', () => {
+          // Add click handlers for both fields
+          map.current.on('click', 'field-highlight-fill-1', () => {
             router.push('/weed-pressure');
           });
+          
+          map.current.on('click', 'field-highlight-fill-2', () => {
+            router.push('/weed-pressure?field=1A');
+          });
 
-          // Change cursor to pointer when hovering over the rectangle
-          map.current.on('mouseenter', 'field-highlight-fill', () => {
+          // Change cursor to pointer when hovering over either rectangle
+          map.current.on('mouseenter', 'field-highlight-fill-1', () => {
+            if (map.current) {
+              map.current.getCanvas().style.cursor = 'pointer';
+            }
+          });
+          
+          map.current.on('mouseenter', 'field-highlight-fill-2', () => {
             if (map.current) {
               map.current.getCanvas().style.cursor = 'pointer';
             }
           });
 
-          // Change cursor back when leaving the rectangle
-          map.current.on('mouseleave', 'field-highlight-fill', () => {
+          // Change cursor back when leaving either rectangle
+          map.current.on('mouseleave', 'field-highlight-fill-1', () => {
+            if (map.current) {
+              map.current.getCanvas().style.cursor = '';
+            }
+          });
+          
+          map.current.on('mouseleave', 'field-highlight-fill-2', () => {
             if (map.current) {
               map.current.getCanvas().style.cursor = '';
             }
@@ -159,7 +251,7 @@ export const MinimalMap = () => {
         style={{ width: '100%', height: '500px', border: '1px solid #ddd' }}
       />
       <div className="mt-2 text-sm text-gray-500">
-        {/* Highlighted area: NW (46.007, -96.215) to SE (46.000, -96.205) */}
+        {/* Two highlighted fields side by side */}
       </div>
     </div>
   );

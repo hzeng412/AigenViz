@@ -2,7 +2,7 @@
 
 import React from "react";
 import { InsightsHeader } from "./InsightsHeader";
-import { GrowthTimeline } from "./GrowthTimeline";
+import GrowthTimeline from "./GrowthTimeline"; // Changed to default import
 import { CropGallery } from "./CropGallery";
 import { CropMetrics } from "./CropMetrics";
 

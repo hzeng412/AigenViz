@@ -2,9 +2,9 @@
 'use client';
 import * as React from "react";
 import { DashboardLayout } from "@/components/dashboard/DashboardLayout";
-import { SettingsContent } from "@/components/settings/SettingsContent";
+import { SettingsPage as SettingsContent } from "@/components/settings/SettingsPage";
 
-export default function InsightsPage() {
+export default function SettingsPage() {
   return (
     <DashboardLayout>
       <SettingsContent />

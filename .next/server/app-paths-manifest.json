@@ -1,0 +1,8 @@
+{
+  "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/settings/page": "app/settings/page.js",
+  "/insights/page": "app/insights/page.js",
+  "/crop-status/page": "app/crop-status/page.js",
+  "/weed-pressure/page": "app/weed-pressure/page.js"
+}

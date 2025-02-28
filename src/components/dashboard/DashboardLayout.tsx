@@ -68,29 +68,27 @@ export const DashboardLayout: React.FC<{ children: React.ReactNode }> = ({ child
         </div>
       </header>
 
-      <div className="flex-grow w-full max-w-[1479px] max-md:max-w-full">
-        <div className="flex gap-5 h-full max-md:flex-col">
-          {/* Your existing sidebar navigation */}
-          <nav className="flex flex-col w-[17%] h-full max-md:ml-0 max-md:w-full">
-            <div className="flex flex-col grow px-4 py-6 w-full h-full bg-stone-50 shadow-[0px_4px_12px_rgba(0,0,0,0.1)] max-md:mt-7">
-              <div className="px-4 pt-0.5 pb-3 w-52 max-w-full text-xl font-bold tracking-wider leading-none whitespace-nowrap bg-black bg-opacity-0 text-zinc-800 max-md:pr-5">
-                Dashboard
-              </div>
-              <div className="flex flex-col flex-grow mt-8 w-full bg-black bg-opacity-0 max-md:mr-0.5">
-                {sidebarItems.map((item, index) => (
-                  <div key={index} className="mt-5 first:mt-0">
-                    <SidebarItem {...item} />
-                  </div>
-                ))}
-              </div>
+      <div className="flex gap-5 h-full w-full px-4 max-md:flex-col">
+        {/* Your existing sidebar navigation */}
+        <nav className="flex flex-col w-64 h-full max-md:ml-0 max-md:w-full">
+          <div className="flex flex-col grow px-4 py-6 w-full h-full bg-stone-50 shadow-[0px_4px_12px_rgba(0,0,0,0.1)] max-md:mt-7">
+            <div className="px-4 pt-0.5 pb-3 w-52 max-w-full text-xl font-bold tracking-wider leading-none whitespace-nowrap bg-black bg-opacity-0 text-zinc-800 max-md:pr-5">
+              Dashboard
             </div>
-          </nav>
+            <div className="flex flex-col flex-grow mt-8 w-full bg-black bg-opacity-0 max-md:mr-0.5">
+              {sidebarItems.map((item, index) => (
+                <div key={index} className="mt-5 first:mt-0">
+                  <SidebarItem {...item} />
+                </div>
+              ))}
+            </div>
+          </div>
+        </nav>
 
-          {/* Main content area */}
-          <main className="flex flex-col ml-5 w-[83%] h-full max-md:ml-0 max-md:w-full">
-            {children}
-          </main>
-        </div>
+        {/* Main content area */}
+        <main className="flex flex-col flex-grow h-full max-md:ml-0 max-md:w-full">
+          {children}
+        </main>
       </div>
     </div>
   );

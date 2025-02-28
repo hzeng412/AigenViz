@@ -25,12 +25,12 @@ const DynamicMap = dynamic(
 export default function HomePage() {
   return (
     <DashboardLayout>
-      <div className="flex flex-col flex-grow mt-3.5 h-full max-md:mt-10 max-md:max-w-full">
+      <div className="flex flex-col flex-grow mt-3.5 h-full w-full px-4 max-md:mt-10">
         {/* Map Section */}
         <MinimalMap />
 
         {/* Field Information Section */}
-        <div className="flex flex-col items-start pt-2.5 pr-20 pl-4 mt-4 w-full bg-white rounded-lg shadow-[0px_1px_3px_rgba(0,0,0,0.25)] max-md:pr-5 max-md:max-w-full">
+        <div className="flex flex-col items-start pt-2.5 px-4 mt-4 w-full bg-white rounded-lg shadow-[0px_1px_3px_rgba(0,0,0,0.25)] max-md:max-w-full">
           {/* <div className="flex z-10 flex-wrap gap-5 justify-between max-w-full text-xl font-bold leading-none w-[973px]">
             <div className="flex gap-10">
               <div className="text-gray-800 basis-auto">

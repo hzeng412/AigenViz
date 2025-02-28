@@ -409,6 +409,10 @@ img, video {
   margin-bottom: 2rem;
 }
 
+.ml-2 {
+  margin-left: .5rem;
+}
+
 .ml-20 {
   margin-left: 5rem;
 }
@@ -449,20 +453,12 @@ img, video {
   margin-top: 3rem;
 }
 
-.mt-16 {
-  margin-top: 4rem;
-}
-
 .mt-2 {
   margin-top: .5rem;
 }
 
 .mt-2\.5 {
   margin-top: .625rem;
-}
-
-.mt-24 {
-  margin-top: 6rem;
 }
 
 .mt-3 {
@@ -634,28 +630,12 @@ img, video {
   height: 539px;
 }
 
-.h-full {
-  height: 100%;
-}
-
-.h-\[44px\] {
-  height: 44px;
-}
-
-.h-\[52px\] {
-  height: 52px;
-}
-
-.h-\[48px\] {
-  height: 48px;
-}
-
-.h-\[72px\] {
-  height: 72px;
-}
-
 .h-\[60px\] {
   height: 60px;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .min-h-4 {
@@ -826,16 +806,12 @@ img, video {
   width: 390px;
 }
 
-.w-\[41\%\] {
-  width: 41%;
+.w-\[400px\] {
+  width: 400px;
 }
 
 .w-\[416px\] {
   width: 416px;
-}
-
-.w-\[44\%\] {
-  width: 44%;
 }
 
 .w-\[453px\] {
@@ -852,10 +828,6 @@ img, video {
 
 .w-\[506px\] {
   width: 506px;
-}
-
-.w-\[56\%\] {
-  width: 56%;
 }
 
 .w-\[75\%\] {
@@ -910,28 +882,20 @@ img, video {
   max-width: 1200px;
 }
 
-.max-w-\[1314px\] {
-  max-width: 1314px;
-}
-
-.max-w-\[1342px\] {
-  max-width: 1342px;
+.max-w-\[1440px\] {
+  max-width: 1440px;
 }
 
 .max-w-\[1479px\] {
   max-width: 1479px;
 }
 
-.max-w-full {
-  max-width: 100%;
-}
-
-.max-w-\[1440px\] {
-  max-width: 1440px;
-}
-
 .max-w-\[506px\] {
   max-width: 506px;
+}
+
+.max-w-full {
+  max-width: 100%;
 }
 
 .flex-1 {
@@ -940,6 +904,10 @@ img, video {
 
 .flex-auto {
   flex: auto;
+}
+
+.flex-none {
+  flex: none;
 }
 
 .shrink {
@@ -1021,6 +989,10 @@ img, video {
   gap: 2.5rem;
 }
 
+.gap-16 {
+  gap: 4rem;
+}
+
 .gap-2 {
   gap: .5rem;
 }
@@ -1061,10 +1033,6 @@ img, video {
   gap: 1px;
 }
 
-.gap-16 {
-  gap: 4rem;
-}
-
 .self-start {
   align-self: flex-start;
 }
@@ -1079,6 +1047,10 @@ img, video {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
 }
 
 .whitespace-nowrap {
@@ -1181,6 +1153,11 @@ img, video {
   border-color: rgb(250 250 249 / var(--tw-border-opacity, 1));
 }
 
+.bg-\[\#4B8B6F\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 139 111 / var(--tw-bg-opacity, 1));
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
@@ -1255,11 +1232,6 @@ img, video {
   background-color: rgb(250 204 21 / var(--tw-bg-opacity, 1));
 }
 
-.bg-\[\#4B8B6F\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(75 139 111 / var(--tw-bg-opacity, 1));
-}
-
 .bg-opacity-0 {
   --tw-bg-opacity: 0;
 }
@@ -1288,9 +1260,9 @@ img, video {
   padding: 1px;
 }
 
-.px-1\.5 {
-  padding-left: .375rem;
-  padding-right: .375rem;
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .px-16 {
@@ -1383,11 +1355,6 @@ img, video {
   padding-bottom: 1rem;
 }
 
-.py-40 {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
-}
-
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -1401,11 +1368,6 @@ img, video {
 .py-px {
   padding-top: 1px;
   padding-bottom: 1px;
-}
-
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
 }
 
 .pb-1 {
@@ -1464,10 +1426,6 @@ img, video {
   padding-left: 1rem;
 }
 
-.pl-5 {
-  padding-left: 1.25rem;
-}
-
 .pl-7 {
   padding-left: 1.75rem;
 }
@@ -1518,10 +1476,6 @@ img, video {
 
 .pr-80 {
   padding-right: 20rem;
-}
-
-.pr-96 {
-  padding-right: 24rem;
 }
 
 .pr-px {
@@ -1845,6 +1799,15 @@ h1 {
   color: #000;
 }
 
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
 .first\:mt-0:first-child {
   margin-top: 0;
 }
@@ -1870,10 +1833,6 @@ h1 {
 }
 
 @media not all and (width >= 768px) {
-  .max-md\:-mr-2 {
-    margin-right: -.5rem;
-  }
-
   .max-md\:ml-0 {
     margin-left: 0;
   }
@@ -1906,10 +1865,6 @@ h1 {
     margin-top: 2rem;
   }
 
-  .max-md\:hidden {
-    display: none;
-  }
-
   .max-md\:w-full {
     width: 100%;
   }
@@ -1925,11 +1880,6 @@ h1 {
   .max-md\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
-  }
-
-  .max-md\:py-24 {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
   }
 
   .max-md\:pb-24 {

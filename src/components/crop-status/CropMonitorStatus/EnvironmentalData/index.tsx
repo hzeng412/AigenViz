@@ -7,7 +7,7 @@ import { EnvironmentalDataProps } from '../../types';
 
 export const EnvironmentalData: React.FC<EnvironmentalDataProps> = ({ fieldName }) => {
   return React.createElement('div',
-    { className: "flex flex-col px-2 py-2.5 mt-2.5 w-full bg-white rounded-xl border border border-solid max-md:mr-0.5 max-md:max-w-full" },
+    { className: "flex flex-col px-6 py-4 mt-2.5 w-full bg-white rounded-xl border border-solid max-md:mr-0.5 max-md:max-w-full" },
     [
       React.createElement('div',
         {
@@ -34,7 +34,7 @@ export const EnvironmentalData: React.FC<EnvironmentalDataProps> = ({ fieldName 
       React.createElement('div',
         {
           key: "content",
-          className: "mt-1.5 max-md:max-w-full"
+          className: "mt-4 max-md:max-w-full"
         },
         React.createElement('div',
           {

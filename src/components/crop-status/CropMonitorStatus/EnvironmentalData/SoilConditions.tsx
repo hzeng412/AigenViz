@@ -8,7 +8,6 @@ export const SoilConditions: React.FC = () => {
         <h3 className="text-base font-semibold text-amber-300">
           Soil Conditions
         </h3>
-        
         <div className="flex items-center gap-2 mt-4">
           <img
             src="https://cdn.builder.io/api/v1/image/assets/a8eb05b1cab740ac8ba52685a6faf2c4/1607c9ed641242e52f86c19f4a308a85e8f007442e80025c83e637471d7471a5"

@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import aigenRobot from "@/images/backgrounds/aigen-robot.png";
+import aigenRobot from "@/images/backgrounds/robot-icon.png";
 import { AccountSection } from "./AccountSection";
 import { SubscriptionSection } from "./SubscriptionSection";
 import { PreferencesSection } from "./PreferencesSection";

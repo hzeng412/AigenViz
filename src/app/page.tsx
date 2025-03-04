@@ -5,6 +5,7 @@ import dynamic from 'next/dynamic';
 import { DashboardLayout } from "@/components/dashboard/DashboardLayout";
 import { FieldList } from "@/components/dashboard/FieldList";
 import { Map } from '@/components/dashboard/Map';
+import { HomeContent } from "@/components/dashboard/HomeContent";
 
 import { MinimalMap } from '@/components/dashboard/MinimalMap';
 
@@ -22,30 +23,10 @@ const DynamicMap = dynamic(
   }
 );
 
-export default function HomePage() {
+export default function Home() {
   return (
     <DashboardLayout>
-      <div className="flex flex-col flex-grow mt-3.5 h-full w-full px-4 max-md:mt-10">
-        {/* Map Section */}
-        <MinimalMap />
-
-        {/* Field Information Section */}
-        <div className="flex flex-col items-start pt-2.5 px-4 mt-4 w-full bg-white rounded-lg shadow-[0px_1px_3px_rgba(0,0,0,0.25)] max-md:max-w-full">
-          {/* <div className="flex z-10 flex-wrap gap-5 justify-between max-w-full text-xl font-bold leading-none w-[973px]">
-            <div className="flex gap-10">
-              <div className="text-gray-800 basis-auto">
-                Field: North-East Quarter
-              </div>
-              <div className="text-black">Location</div>
-            </div>
-            <div className="flex gap-10 self-start text-black max-md:max-w-full">
-              <div>Size</div>
-              <div>Current Crop Type</div>
-            </div>
-          </div> */}
-          <FieldList />
-        </div>
-      </div>
+      <HomeContent />
     </DashboardLayout>
   );
 }

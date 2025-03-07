@@ -144,9 +144,9 @@ export const HomeContent: React.FC = () => {
           <div className="bg-white rounded-xl p-4">
             <h3 className="text-lg font-medium mb-4">Crop Disease Severity Map</h3>
             <div className="aspect-square w-full overflow-hidden flex items-center justify-center">
-              <div className="w-[85%] h-[85%]"> {/* 改为85% */}
+              <div className="aspect-square w-full overflow-hidden">
                 <img 
-                  src="/images/farm06/Crop-Disease-Map/Crop-Disease-Map.png"
+                  src="/images/farm06/Crop-Disease-Maps/Crop-Disease-Map.png"
                   alt="Crop Disease Severity"
                   className="w-full h-full object-contain"
                 />

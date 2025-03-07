@@ -173,14 +173,14 @@ export const HomeContent: React.FC = () => {
             <h3 className="text-lg font-medium mb-4 text-gray-800">
               Crop Disease Severity Map 
               <span className="ml-2 text-sm text-gray-500">
-                (Stage {getCropDiseaseMapNumber(selectedDateIndex)})
+                {/* (Stage {getCropDiseaseMapNumber(selectedDateIndex)}) */}
               </span>
             </h3>
             <div className="aspect-square w-full overflow-hidden flex items-center justify-center">
               <div className="aspect-square w-full overflow-hidden">
                 <img 
                   src={getCropDiseaseMapPath(selectedDateIndex)}
-                  alt={`Crop Disease Severity Stage ${getCropDiseaseMapNumber(selectedDateIndex)}`}
+                  alt={`Crop Disease Severity Stage`}
                   className="w-full h-full object-contain"
                 />
               </div>

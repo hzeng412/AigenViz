@@ -1,9 +1,8 @@
 {
   "/page": "app/page.js",
-  "/weed-pressure/page": "app/weed-pressure/page.js",
   "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/crop-status/page": "app/crop-status/page.js",
   "/insights/page": "app/insights/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/settings/page": "app/settings/page.js"
+  "/weed-pressure/page": "app/weed-pressure/page.js"
 }

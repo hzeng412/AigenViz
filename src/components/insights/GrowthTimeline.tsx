@@ -6,7 +6,7 @@ const GrowthTimeline = () => {
     { date: '01 May', label: 'Germination', complete: true },
     { date: '16 May', label: 'Vegetative Growth', complete: true },
     { date: '01 July', label: 'Reproductive Stage', complete: true },
-    { date: '01 August', label: 'Harvest', complete: false, current: true },
+    { date: '01 August', label: 'Harvest', complete: true },
     { date: '15 August', label: 'End of Harvest', complete: false, progress: 75 }
   ];
 

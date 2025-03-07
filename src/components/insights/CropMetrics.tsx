@@ -1,74 +1,137 @@
 "use client";
 
 import React from "react";
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 
 export const CropMetrics = () => {
+  // 作物高度数据
+  const heightData = [
+    { date: '08 May 25', field2B: 5, field1A: 4 },
+    { date: '08 June 25', field2B: 35, field1A: 38 },
+    { date: '16 July 25', field2B: 75, field1A: 68 }
+  ];
+
+  // 作物密度数据
+  const densityData = [
+    { date: '08 May 25', field2B: 13100, field1A: 13050 },
+    { date: '08 June 25', field2B: 14000, field1A: 13800 },
+    { date: '16 July 25', field2B: 14900, field1A: 14700 }
+  ];
+
+  const chartCommonProps = {
+    width: 600,
+    height: 400,
+    margin: { top: 20, right: 30, left: 20, bottom: 20 }
+  };
+
+  const customLegend = () => {
+    return (
+      <div className="flex gap-8 justify-end mb-4">
+        <div className="flex items-center gap-2">
+          <span className="w-8 h-[2px] bg-[#FFB800]"></span>
+          <span>Field #2B</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <span className="w-8 h-[2px] bg-[#90EE90]"></span>
+          <span>Field #1A</span>
+        </div>
+      </div>
+    );
+  };
+
   return (
-    <section className="px-7 pt-8 pb-24 w-full bg-white rounded-xl max-md:px-5 max-md:max-w-full">
-      <div className="flex gap-10 max-w-full bg-black bg-opacity-0 w-[1304px]">
-        <h2 className="grow shrink text-xl font-bold tracking-wide text-neutral-500 w-[158px]">
-          Crop Height Trends
-        </h2>
-        <div className="flex z-10 flex-wrap gap-5 my-auto mr-0 max-md:max-w-full">
-          <button className="flex gap-2 px-3.5 py-4 text-base text-center text-black bg-white rounded-lg border border-solid">
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/b041a8bb913e00d43acdee393ec024026049b85bdd430eb07701002ff32f46ae"
-              className="object-contain shrink-0 self-start aspect-[3.8] w-[38px]"
-              alt="Field icon"
+    <section className="px-7 pt-8 pb-24 w-full bg-white rounded-xl">
+      <h2 className="text-xl font-bold text-gray-500 mb-6">
+        Crop Height Trends
+      </h2>
+
+      <div className="grid grid-cols-2 gap-8">
+        {/* 作物高度图表 */}
+        <div className="bg-white rounded-xl shadow-sm p-6">
+          {customLegend()}
+          <LineChart {...chartCommonProps} data={heightData}>
+            <CartesianGrid stroke="#E5E7EB" strokeDasharray="1 0" vertical={false} />
+            <XAxis 
+              dataKey="date" 
+              axisLine={false}
+              tickLine={false}
+              tick={{ fill: '#6B7280', fontSize: 12 }}
             />
-            <span>Field #2B</span>
-          </button>
-          <button className="px-16 py-4 text-base text-center text-black bg-white rounded-lg border border-solid max-md:pl-5">
-            Field #1A
-          </button>
+            <YAxis 
+              domain={[0, 80]} 
+              axisLine={false}
+              tickLine={false}
+              tick={{ fill: '#6B7280', fontSize: 12 }}
+            />
+            <Line 
+              type="monotone" 
+              dataKey="field2B"
+              stroke="#FFB800"
+              strokeWidth={2}
+              dot={{ r: 4, fill: "#FFB800", strokeWidth: 0 }}
+              activeDot={{ r: 6 }}
+              legendType="none"
+            />
+            <Line 
+              type="monotone" 
+              dataKey="field1A"
+              stroke="#90EE90"
+              strokeWidth={2}
+              dot={{ r: 4, fill: "#90EE90", strokeWidth: 0 }}
+              activeDot={{ r: 6 }}
+              legendType="none"
+            />
+          </LineChart>
+        </div>
+
+        {/* 作物密度图表 */}
+        <div className="bg-white rounded-xl shadow-sm p-6">
+          {customLegend()}
+          <LineChart {...chartCommonProps} data={densityData}>
+            <CartesianGrid stroke="#E5E7EB" strokeDasharray="1 0" vertical={false} />
+            <XAxis 
+              dataKey="date" 
+              axisLine={false}
+              tickLine={false}
+              tick={{ fill: '#6B7280', fontSize: 12 }}
+            />
+            <YAxis 
+              domain={[13000, 15000]} 
+              axisLine={false}
+              tickLine={false}
+              tick={{ fill: '#6B7280', fontSize: 12 }}
+            />
+            <Line 
+              type="monotone" 
+              dataKey="field2B"
+              stroke="#006400"
+              strokeWidth={2}
+              dot={{ r: 4, fill: "#006400", strokeWidth: 0 }}
+              activeDot={{ r: 6 }}
+              legendType="none"
+            />
+            <Line 
+              type="monotone" 
+              dataKey="field1A"
+              stroke="#90EE90"
+              strokeWidth={2}
+              dot={{ r: 4, fill: "#90EE90", strokeWidth: 0 }}
+              activeDot={{ r: 6 }}
+              legendType="none"
+            />
+          </LineChart>
         </div>
       </div>
-      <div className="mt-6 max-md:max-w-full">
-        <div className="flex gap-5 max-md:flex-col">
-          <div className="w-6/12 max-md:ml-0 max-md:w-full">
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/f238fff38cc5ed753a682c256c85d939a36c57aa2cc2de2361599c7b74cd5994"
-              className="object-contain grow w-full rounded-lg aspect-[1.04] max-md:mt-4 max-md:max-w-full"
-              alt="Height trends chart"
-            />
-          </div>
-          <div className="ml-5 w-6/12 max-md:ml-0 max-md:w-full">
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/e72a280fd7801049e2d4c9f48a409d256abce2727a254b97186bdaf99e9eb3d1"
-              className="object-contain grow w-full rounded-lg aspect-[1.04] max-md:mt-4 max-md:max-w-full"
-              alt="Density trends chart"
-            />
-          </div>
-        </div>
-      </div>
-      <div className="flex flex-wrap gap-5 justify-between mt-6 w-full text-base text-center text-black max-md:max-w-full">
-        <button className="flex gap-2.5 px-3.5 py-3.5 rounded-lg border border-solid">
-          <img
-            loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/afd86f18eb49896eb4d604d782bbeefd4aeb17343ca3aeef856b5a9d976e6c20"
-            className="object-contain shrink-0 self-start w-3.5 aspect-[0.87]"
-            alt="Calendar icon"
-          />
-          <span>08 May 25 - 16 July 25</span>
+
+      {/* 底部控制按钮 */}
+      <div className="flex justify-between mt-6">
+        <button className="flex items-center gap-2 px-4 py-2 border rounded-lg text-gray-600">
+          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+          </svg>
+          08 May 25 - 16 July 25
         </button>
-        <div className="flex gap-4">
-          <button className="px-7 py-4 bg-gray-200 rounded-lg max-md:px-5">
-            Edit Metrics
-          </button>
-          <button className="flex gap-2.5 px-3.5 py-3.5 rounded-lg border border-solid">
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/9270aae754eac1ae66f901fe18bfc0c94b5692a40ee68cc73acf89a69fb20e8b"
-              className="object-contain shrink-0 self-start w-3.5 aspect-[0.87]"
-              alt="Calendar icon"
-            />
-            <span>08 May 25 - 16 July 25</span>
-          </button>
-        </div>
-        <button className="px-7 py-4 bg-gray-200 rounded-lg max-md:px-5">
+        <button className="px-6 py-2 bg-gray-100 rounded-lg text-gray-600">
           Edit Metrics
         </button>
       </div>
